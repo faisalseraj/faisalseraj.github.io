@@ -1,0 +1,188 @@
+.react-datepicker__header,
+.react-datepicker__day:hover,
+.react-datepicker__time-list-item:hover {
+  background-color: #f2f3fa !important;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--selected:hover,
+.react-datepicker__time-list-item--selected,
+.react-datepicker__time-list-item--selected:hover {
+  background-color: #16408b !important;
+}
+
+.react-datepicker__month-container,
+.react-datepicker__header,
+.react-datepicker__time-container {
+  border-color: #dee3ed !important;
+}
+
+.react-datepicker__time,
+.react-datepicker {
+  border-radius: 10px !important;
+}
+
+.react-datepicker__header {
+  border-top-right-radius: 10px !important;
+  border-top-left-radius: 10px !important;
+}
+
+.react-datepicker__header--has-time-select {
+  border-radius: 0px !important;
+  border-top-left-radius: 10px !important;
+}
+
+.react-datepicker__header--time {
+  border-radius: 0px !important;
+  border-top-right-radius: 10px !important;
+}
+
+.react-datepicker__time-list-item--disabled {
+  display: none !important;
+}
+
+.react-datepicker__year-dropdown,
+.react-datepicker__month-dropdown {
+  background-color: #f2f3fa !important;
+  border-color: #dee3ed !important;
+}
+
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow,
+.react-datepicker__year-read-view--down-arrow {
+  top: 10px;
+}
+
+.react-datepicker__year-read-view--selected-year {
+  margin-left: 20px;
+}
+
+.myDatePicker {
+  border: solid #000;
+  border-width: 0px;
+  width: min-content;
+  border-radius: 2%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.chooseDate {
+  height: 40px;
+  width: 332px;
+  color: white;
+  font-weight: bold;
+  line-height: 40px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border: rgb(0, 58, 139) solid;
+  border-top-right-radius: 5px;
+  background-color: rgb(0, 58, 139);
+  position: absolute;
+  top: 100px;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.dateOfBirth {
+  position: absolute;
+  top: 130px;
+  z-index: 9;
+  background: white;
+  box-shadow: 0px 0px 20px 0px grey;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+/* Header section */
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header nav li {
+  list-style-type: none;
+  margin-right: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.logo img {
+  /* width: 50px; */
+  /* height: 50px; */
+  border-radius: 50%;
+  border-radius: 10px;
+}
+img {
+  object-fit: cover;
+}
+.bg-container {
+  position: relative;
+}
+.absolute-text {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+.absolute-text h1 {
+  font-size: 5rem;
+  /* background-color: rgba(100, 148, 237, 0.644); */
+}
+.bg-container img {
+  width: 100%;
+  height: 90vh;
+}
+.card-container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.card {
+  flex-basis: 50%;
+  margin: 10px;
+  line-height: 1.6;
+}
+.card img {
+  width: 100%;
+}
+.subscribe {
+  width: 80%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  background-color: cornflowerblue;
+  padding: 20px;
+}
+.subscribe button {
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.subscribe input {
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

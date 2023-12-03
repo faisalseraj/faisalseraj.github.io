@@ -1,0 +1,2527 @@
+{
+  "app": {
+    "name": "{firstName}\u00a0{lastName}",
+    "email": "{email}",
+    "participantName": "{participantFirstName}\u00a0{participantLastName}",
+    "filterParticipantName": "{filterParticipantFirstName}\u00a0{filterParticipantLastName}",
+    "infoUpdated": "Info updated!",
+    "paymentUpdated": "Payment updated!",
+    "fetchMore": "Fetch more...",
+    "menuHeading": "Hi, {name}",
+    "userType": "{type, select, Admin {Super Admin} PartnerAdmin {Partner Admin} PartnerStaff {Partner Staff} Educator {Educator} Participant {Participant} Judge {Judge} Reviewer {Reviewer} AllianceAdmin {Alliance Admin} other {{type}}}",
+    "created": "Created!",
+    "updated": "Updated!",
+    "labelWithDetail": "<l>{label}</l> <d>{detail}</d>",
+    "labelWithDetailWithoutSeperator": "<l>{label}</l> <d>{detail}</d>",
+    "yes": "Yes",
+    "no": "No",
+    "actions": "Actions",
+    "address": "{addressLine1, select, undefined {} other {{addressLine1},{br}}}{addressLine2, select, undefined {} other {{addressLine2},{br}}}{city, select, undefined {} other {{city}, }}{state} {zip}",
+    "approved": "Approved",
+    "notApproved": "Not approved",
+    "action": "Action",
+    "info": "Info",
+    "notUploaded": "Work not uploaded",
+    "doNotShowAgain": "Don't show this again",
+    "voices": "American Voices",
+    "visions": "American Visions",
+    "a/b": "{a, number}/{b, number}",
+    "notFound": "Not Found",
+    "noDeadLine": "No deadline available",
+    "deadlinePassed": "Deadline passed",
+    "aA": "aA"
+  },
+
+  "cta": {
+    "cancel": "Cancel",
+    "reset": "Reset",
+    "preview": "Preview",
+    "save": "Save",
+    "confirm": "Confirm",
+    "cont": "Continue",
+    "saveChanges": "Save Changes",
+    "saveClose": "Save and Close",
+    "close": "Close",
+    "saveCont": "Save and Continue",
+    "clear": "Clear",
+    "search": "Search",
+    "deactivate": "Deactivate",
+    "remove": "Remove",
+    "delete": "Delete",
+    "deleteSelected": "Delete Selected",
+    "signUp": "Sign up",
+    "userSignUp": "{role} Sign up",
+    "editAdd": "Edit or Add",
+    "add": "Add",
+    "edit": "Edit",
+    "exit": "Exit",
+    "return": "Return",
+    "review": "Review",
+    "view": "View",
+    "disabled": "Disabled",
+    "enable": "Enable",
+    "message": "Message",
+    "dashboard": "Go to Dashboard",
+    "changePayment": "Change Payment",
+    "changePaymentStatus": "Change Payment Status",
+    "override": "Override",
+    "change": "Change",
+    "back": "Go Back",
+    "justBack": "Back",
+    "print": "Print",
+    "inviteParticipant": "Invite Participant",
+    "typeOfWork": "Type of work",
+    "addDoc": "Add Document",
+    "workTitleA": "Work title (A-Z)",
+    "A-Z": "(A-Z)",
+    "Z-A": "(Z-A)",
+    "gradeA": "Grade (Lower First)",
+    "gradeZ": "Grade (Higher First)",
+    "workTitleD": "Work title (Z-A)",
+    "lastNameA": "Last Name (A-Z)",
+    "lastNameZ": "Last Name (Z-A)",
+    "participantNameA": "Participant Name (A-Z)",
+    "participantNameD": "Participant Name (Z-A)",
+    "sortby": "Sort By:",
+    "emailAddress": "Email Address",
+    "typeHere": "Type Here",
+    "invitationEmail": "Invitation Email",
+    "invitationSent": "Invitation Sent",
+    "messageSent": "Message Sent",
+    "selectpaymentStatus": "Select Payment Status",
+    "pagination": "Showing {size} of {total}",
+    "paginations": "Showing {itemsInfo} of {total}",
+    "returnToPanel": "Return to Panel",
+    "resend": "Re-send",
+    "notAvailable": "NA",
+    "reset": "Reset",
+    "saveAndContinue": "Save and Continue",
+    "nextWork": "Next Work Application"
+  },
+
+  "nav": {
+    "students": "Students",
+    "alumi": "Alumi",
+    "educators": "Educators",
+    "parents": "Parents",
+    "questions": "Got Questions?",
+    "login": "Login",
+    "account": "Account"
+  },
+  "messages": {
+    "empty": "No message recieved...",
+    "from": "From",
+    "subject": "Subject",
+    "defaultSubject": "Receive additional Scholarships and Scholarships for your work!",
+    "date": "<bold>Date:</bold> {date}"
+  },
+
+  "types": {
+    "user": {
+      "type": "Type",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "city": "City",
+      "state": "State",
+      "pronoun": "Pronoun",
+      "ethnicity": "Ethnicity",
+      "grade": "Grade",
+      "phoneNumber": "Phone Number"
+    },
+    "educator": {
+      "name": "Educator Name"
+    },
+    "school": {
+      "name": "School Name",
+      "type": "Type",
+      "typeSchool": "School",
+      "typeProgram": "OEP",
+      "participantsLabel": "Participants"
+    },
+
+    "entry": {
+      "title": "Title",
+      "workTitle": "Work Title",
+      "category": "Category",
+      "incomplete": "Incomplete",
+      "entryStatusEnum": "{status, select, DRA {Draft} SUB {Submitted for judging} other {{status}}}",
+      "entryStatusWork": "{status, select, DRA {Unpaid} SUB {Paid} CHK {Paid} WVR {Fee waived} OTR {Paid} BLK {Paid} OVR {Paid} other {{status}}}",
+      "entryPaymentMethod": "{status, select, NON {Unpaid} CRD {Paid} CHK {Paid} WVR {Fee waived} OTR {Paid} BLK {External Payment} OVR {Paid} other {{status}}}",
+      "entryPaidStatusEnum": "{type, select, NON {Unpaid} CRD {Paid} CHK {Paid} WVR {Fee waived} OTR {Paid} BLK {Paid} OVR {Paid} other {{type}}}",
+      "grade": "Grade",
+      "score": "Score",
+      "height": "Height",
+      "width": "Width",
+      "depth": "Depth",
+      "workStatus": "Work Status",
+      "workEntry": "Select Work Status",
+      "entryStatus": "Entry Status",
+      "Status": "Entry Status",
+      "selectEntry": "Select Entry Status"
+    },
+    "tests": {
+      "name": "Test Name",
+      "category": "Test Category",
+      "range": "Normal Range",
+      "price": "Price",
+      "result": "Result",
+      "status": "Status",
+      "mainHeading": "Tests Management",
+      "addTest": "Add new Test",
+      "updateTest": "Update Test",
+      "exportAllTests": "Export All Tests"
+    },
+    "report": {
+      "patientName": "Patient Name",
+      "patientAge": "Paitent Age",
+      "patientGender": "Paitent Gender",
+      "patientContact": "Paitent Contact",
+      "amount": "Total Amount",
+      "discount": "Total Discount offered",
+      "isFree": "Did you conducted this test for Free?",
+      "conductedTest": "Tests performed for this patient?",
+      "testSelect": "Test Name",
+      "testSelectPlaceholder": "Please select a test",
+      "result": "Result for this test",
+      "status": "What is the status of the test?",
+      "remarks": "Remarks"
+    },
+    "partner": {
+      "name": "Name",
+      "code": "Code",
+      "partner": "Partner"
+    },
+
+    "category": {
+      "code": "Code",
+      "name": "Name",
+      "type": "Type",
+      "typeEnum": "{type, select, A {Art} W {Writing} other {{type}}}",
+      "description": "Description",
+      "examples": "Examples",
+      "fileQuantity": "Entry Limit (optional)",
+      "maxFileSize": "Max file size (Mb)",
+      "fileTypes": "File Types",
+      "resolution": "Resolution",
+      "widthRequired": "Width Required",
+      "heightRequired": "Height Required",
+      "depthRequired": "Depth Required",
+      "minWritingLimit": "Min Writing Limit",
+      "maxWritingLimit": "Max Writing Limit",
+      "limitType": "Writing limit type",
+      "limitTypeEnum": "{type, select, CHR {Characters} LIN {Lines} WRD {Words} other {type}}",
+      "otherRequirements": "Additional Instructions for unit length(optional)",
+      "summaryRequired": "Summary Required",
+      "summaryWordLimit": "Summary Word Limit",
+      "specialInstructions": "Special Instructions",
+      "scholarships": "Scholarships"
+    },
+
+    "panel": {
+      "id": "Panel ID",
+      "category": "Category",
+      "status": "Panel Status",
+      "grades": "Grade",
+      "statusEnum": "{status, select, NOT {Not Started} PRO {In Progress} COM {Completed} other {{status}}}",
+      "region": "Region",
+      "round": "Round"
+    }
+  },
+
+  "errors": {
+    "ERR_400": "Bad request",
+    "ERR_401": "Not authorized",
+    "ERR_403": "Action forbidden",
+    "ERR_404": "Not found",
+    "ERR_409": "Record already exists",
+    "ERR_500": "Server error - unable to process request",
+
+    "ERR_UNKNOWN_ERROR_CALLING_ENDPOINT": "Error communicating with server",
+    "ERR_USER_NOT_FOUND": "Unknown user or password",
+    "ERR_BAD_PASSWORD": "Incorrect password",
+    "ERR_USERNAME_EXISTS": "Username is already taken",
+    "ERR_EXPIRED_CODE": "Invitation expired",
+    "ERR_LIMIT_EXCEEDED": "Too many attempts",
+
+    "dataLoadingFailure": "An error occurred when fetching data from the server, please try refreshing your page.",
+    "missingExcerpt": "Entry does not have an excerpt"
+  },
+
+  "authFlow": {
+    "profile": "Profile",
+    "signInTitle": "Sign In",
+    "notSignedIn": "Not signed in",
+    "logInButton": "Sign In",
+    "logOutButton": "Sign Out",
+    "changePasswordButton": "Change Password",
+    "changeProfileButton": "Change Profile",
+    "changePasswordTitle": "Change Password",
+    "changeProfileTitle": "Change Profile",
+    "changePassword": "Change Password",
+    "passwordChanged": "Password Changed",
+    "profileChanged": "Profile Updated",
+    "impersonateProfileUpdateErr": "Please stop impersonating and login from this user to update user Profile",
+    "rememberMe": "Remember Me",
+    "forgotPassword": "Forgot Password?",
+    "forgotPasswordModal": {
+      "title": "Forgot Password",
+      "sendPasswordReset": "Send Password Reset",
+      "passwordResetSent": "Password reset email has been sent"
+    },
+    "createAccount": {
+      "title": "Create an account",
+      "register": "Not registered yet?",
+      "link": "<createAccountLink>Create an account</createAccountLink>",
+      "student": "I'm a student",
+      "educator": "I'm an educator"
+    }
+  },
+
+  "admin": {
+    "menu": {
+      "usersItem": "All users",
+      "tests": "Tests Management",
+      "dashboard": "Dashboard",
+      "registerNewUser": "Register New User",
+
+      "judgesItem": "Judges",
+      "partnersItem": "All partners",
+      "impersonateMenuGroupTitle": "Impersonation",
+      "impersonateStop": "Stop impersonating",
+      "categoriesItem": "Categories",
+      "testDataItem": "Test Data",
+      "generateNewReport": "Generate New Report",
+      "list": "List All Reports",
+      "settings": "General Settings",
+      "reportPaymentStatus": "Payment Status"
+    },
+    "judges": {
+      "region": "Region",
+      "lastLogin": "Last Login",
+      "partnerSelect": "Select Partner",
+      "regionSelect": "Select Region",
+      "regionPlaceholder": "Assign to Region"
+    },
+    "users": {
+      "impersonateConfirmation": "Do you wish to impersonate this user?",
+      "impersonateButton": "Impersonate",
+      "userTable": {
+        "heading": "All Users"
+      }
+    },
+
+    "partners": {
+      "partnerTable": {
+        "heading": "All Partners",
+        "addPartnerButton": "Add Partner"
+      },
+      "info": {
+        "email": "Email",
+        "name": "Name",
+        "merchantAccountId": "Merchant Account ID",
+        "code": "Code",
+        "contactCity": "Contact City",
+        "modified": "Modified",
+        "about": "About",
+        "contactAddressLine2": "Contact Address Line 2",
+        "contactAddressLine1": "Contact Address Line 1",
+        "contactState": "Contact State",
+        "contactZip": "Contact Zip",
+        "logoKey": "Logo Key",
+        "bannerKey": "Banner Key",
+        "contactFirstName": "Contact First Name",
+        "phone": "Phone",
+        "country": "Country",
+        "contactCountry": "Contact Country",
+        "contactEmail": "Contact Email",
+        "bankRoutingNumber": "Bank Routing Number",
+        "contactLastName": "Contact Last Name",
+        "created": "Created",
+        "websiteUrl": "Organization URL",
+        "contactName": "Contact Name",
+        "contactPhone": "Contact Phone",
+        "individualFee": "Individual Fee",
+        "portfolioFee": "Portfolio Fee",
+        "feeDetails": "Fee Details",
+        "otherPaymentsEnabled": "Other Payments Enabled?"
+      },
+      "addModal": "Add Partner",
+      "editModal": "Edit Partner"
+    },
+
+    "categories": {
+      "categoriesTable": {
+        "heading": "Categories",
+        "addButton": "Add Category"
+      },
+
+      "addCategoryTitle": "New Category",
+      "editCategoryTitle": "Edit Category"
+    },
+
+    "testData": {
+      "writing": "Writing",
+      "art": "Art",
+      "addDataButton": "Create 100 Test Entries",
+      "removeDataButton": "Delete Test Entries",
+      "addPanelsButton": "Create Test Panels",
+      "deletePanelsButton": "Delete Test Panels",
+      "addJudgesButton": "Create Test Judges",
+      "deleteJudgesButton": "Delete Test Judges",
+      "created": "Test data successfully created",
+      "removed": "Test data successfully removed"
+    }
+  },
+
+  "allianceAdmin": {
+    "searchOEP": {
+      "mainHeading": "Search Other Educational Program in Your Region",
+      "heading": "Search Other Educational Program",
+      "educationalProgram": "Other Educational Program",
+      "programName": "Program Name",
+      "city": "City",
+      "zip": "Zip",
+      "educators": "Educators",
+      "participants": "Participants",
+      "works": "Works",
+      "contactSchoolName": "Contact School Name",
+      "contactCountry": "Contact Country",
+      "contactState": "Contact State",
+      "contactType": "Contact Type",
+      "contactCity": "Contact City",
+      "contactZipCode": "Contact Zip Code",
+      "contactAddress1": "Contact Address1",
+      "contactAddress2": "Contact Address2",
+      "contactFirstName": "Contact First Name",
+      "contactLastName": "Contact Last Name",
+      "contactPhoneNumber": "Contact Phone Number",
+      "contactEmail": "Contact Email",
+      "success": "Other Educational Program Added Successfully",
+      "add": "ADD OTHER EDUCATIONAL PROGRAM"
+    },
+    "searchJudge": {
+      "mainHeading": "Search Judge in Your Region",
+      "heading": "Search Judge",
+      "judgingRange": "Judging Range",
+      "judgeName": "Judge Name",
+      "panelsFinished": "Panels Finished",
+      "judgeEmail": "Judge's Email",
+      "judgeFullName": "Judge's Full Name",
+      "judgeCountry": "Judge's Country",
+      "judgeRegion": "Judge's Region",
+      "lastLogin": "Last Login",
+      "success": "Judge Invited Successfully"
+    },
+    "searchPartner": {
+      "searchPartner": "Search Partner",
+      "info": "Info",
+      "partnerName": "Partner Name",
+      "partnerEmail": "Partner Email",
+      "partnerRegion": "Partner Region",
+      "lastLogin": "Last Login",
+      "partneremail": "Partner's Email",
+      "partnerFullName": "Partner's Full Name",
+      "partnerCountry": "Partner's Country",
+      "partnerregion": "Partner's Region",
+      "success": "Partner Invited Successfully"
+    },
+    "searchAction": {
+      "work": "Work",
+      "participant": "Participant",
+      "educator": "Educator",
+      "school": "School",
+      "OEP": "OEP",
+      "partner": "Partner",
+      "judge": "Judge"
+    },
+    "searchSchool": {
+      "enterCity": "Enter City",
+      "schoolName": "School Name / Alias",
+      "schoolName1": "School name or alias",
+      "heading": "Search School in Your Region",
+      "heading2": "Search School",
+      "success": "School Added Successfully"
+    },
+    "searchWork": {
+      "heading": "Search Work in Your Region",
+      "barcode": "Barcode",
+      "category": "Category",
+      "workType": "Work Type",
+      "workTitle": "Work Title",
+      "studentName": "Student Name",
+      "studentEmail": "Student Email",
+      "type": "Type",
+      "region": "Region",
+      "schoolName": "School Name",
+      "schoolName1": "School name",
+      "barCode": "Barcode",
+      "flags": "Flags",
+      "schoolType": "School Type",
+      "parentFirstNamePlaceholder": "Parent of legal guradian's first name",
+      "parentLastNamePlaceholder": "Parent of legal guradian's last name",
+      "parentEmailPlaceholder": "Parent of legal guradian's email",
+      "addSchool": "ADD SCHOOL"
+    },
+    "searchParticipant": {
+      "heading": "Search Participant in Your Region"
+    },
+    "searchEducator": {
+      "heading": "Search Educator in Your Region",
+      "heading2": "Search Educator",
+      "name": "Educator's name",
+      "table": {
+        "name": "Educator Name",
+        "email": "Educator Email",
+        "region": "Region",
+        "city": "City",
+        "school": "School name",
+        "student": "Student"
+      }
+    },
+    "menu": {
+      "heading": "Hi, {name}",
+      "regionals": "Regionals",
+      "regions": "Regions",
+      "judges": "Judges",
+      "plagiarism": "Plagiarism Review",
+      "nationals": "Nationals",
+      "writing": "Writing Panels",
+      "art": "Art Panels",
+      "nationalDeadline": "National Deadlines",
+      "additionalAwards": "Additional Awards",
+      "cashAwards": "Cash Awards",
+      "dragDropInfo": "Drag and drop or select thumbnails to move works from Elimination to Next Round or vice versa. Click the thumbnail to see a larger view.",
+      "manageCashAwards": "Manage Cash Awards",
+      "americanVoices": "American Voices",
+      "americanVisions": "American Visions",
+      "admin": "Admin",
+      "schools": "Schools",
+      "manageCategories": "Manage Categories",
+      "zipCode": "Zip-Codes Coverage",
+      "messages": "Default Messages",
+      "bulkPayments": "Bulk Payments",
+      "actionLog": "Action Log",
+      "actions": "Actions",
+      "invite": "Send Invite",
+      "search": "Search",
+      "settings": "Account Settings",
+      "invitationSuccess": "User Added"
+    },
+    "defaultMessages": {
+      "sendNewMessage": "Send New Defaul Message",
+      "recipients": "Recipients",
+      "messageContent": "Message Content",
+      "archivedMessages": "Defaul Message Archive",
+      "form": {
+        "defaultRecipient": "Default Message Recipients",
+        "defaultRecipientPlaceholder": "All Users",
+        "recipientEmail": "Recipients Email(s) (optional)",
+        "messageTitle": "Message Title",
+        "messageTitlePlaceholder": "Enter Message Title",
+        "messageText": "Message Text",
+        "messageTextPlaceholder": "Enter Message Text",
+        "scheduleMessage": "Schedule message",
+        "scheduleDate": "Message Will be Sent on this Date"
+      },
+      "table": {
+        "sentBy": "Sent by"
+      }
+    },
+    "regions": {
+      "heading": "Regions Management",
+      "panel": "Panel Management",
+      "searchLabel": "Search Region",
+      "searchPlaceholder": "Region name or code",
+      "expandView": "Expanded View",
+      "sortAll": "All",
+      "sortNotStarted": "Not Started",
+      "sortInProgress": "In Progress",
+      "sortFinished": "Finished",
+
+      "topHeader": {
+        "totalLabel": "Total Regions:",
+        "totalMobileLabel": "Total Panels",
+        "incompleteLabel": "Not Started",
+        "progressLabel": "In Progress",
+        "finishedLabel": "Finished Judging",
+        "calendarLabel": "Program End:",
+        "judgingDays": "{days} <label>{days, plural, one {day left} other {days left}}</label>",
+        "programEnd": "Program has ended"
+      },
+      "table": {
+        "region": "Region",
+        "status": "Status",
+        "panelsFinished": "Panels Finished",
+        "works": "Works",
+        "lastLogin": "Partner's Last Login",
+        "action": "Action",
+        "panelInfo": "{round, select, 1 {Panels Not Created} 2 {Judging not started} other {{round}}}",
+        "showRegion": "Show regions per page",
+        "pagination": "{size} ",
+        "total": "of {total}",
+        "statusEnum": "{status, select, NS {Not Started} IP {In Progress} FN {Finished} other {{status}}}"
+      },
+      "regionDetails": {
+        "regionalDates": {
+          "heading": "Regional Dates",
+          "workEntry": "Work Entries Deadline:",
+          "judgingDeadline": "Judging Deadline:"
+        },
+        "regionalDeadlines": {
+          "heading": "Regional Deadlines",
+          "submission": "Regional Submission:",
+          "judging": "Regional Judging:"
+        },
+        "judgingInfo": {
+          "heading": "Judging Info",
+          "total": "Total Judges:"
+        },
+        "awardDistribution": {
+          "heading": "Awards Distribution",
+          "eliminate": "Eliminated:",
+          "honorable": "Honorable mention:",
+          "silver": "Silver key:",
+          "gold": "Gold key:",
+          "voices": "American Visions"
+        }
+      }
+    },
+    "county": {
+      "addNew": "ADD NEW COUNTY",
+      "addNewZip": "ADD ZIP-CODE",
+      "newCounty": "New County",
+      "success": "County {variant} successfully ",
+      "deleteSuccess": "County successfully deleted",
+      "addingZipcode": "Zip codes you are adding",
+      "deleteZipcode": "Delete County",
+      "table": {
+        "county": "County",
+        "zipCodes": "Zip-codes"
+      },
+
+      "form": {
+        "name": "County Name",
+        "namePlaceholder": "Enter County Name",
+        "zip": "Add Zip-code",
+        "zips": "Add Zip-codes",
+        "zipPlaceholder": "Type in zip-code",
+        "zipCodeExists": "Zip-codes already exists",
+        "zipCodeExistsInCurrent": "Zip-codes already exists in current table",
+        "zipCodeMismatch": "Zip-code is in wrong format"
+      }
+    },
+    "cashAwards": {
+      "heading": "Cash Awards",
+      "panel": "Panel Management",
+      "needsReview": "Needs Review",
+      "finished": "Finished",
+      "searchLabel": "Search Region",
+      "searchPlaceholder": "Region name or code",
+      "expandView": "Expanded View",
+      "sortAll": "All",
+      "sortNotStarted": "Not Started",
+      "sortInProgress": "In Progress",
+      "sortFinished": "Finished",
+      "entriesOptIn": "Entries opted in",
+      "entriesOptInNumber": "Entries opted in: {optedIn}",
+      "otherWorks": "Other Works in this Round",
+      "giveAward": "Give Award",
+      "dontGiveAward": "Don't Give Award",
+      "promoteDemote": "PROMOTE-DEMOTE TOOL",
+      "worksInThisSection": "Works in this section:",
+      "worksInThisPanel": "Works in this panel:",
+      "awardExceeded": "You’ve assigned too many awards:",
+      "awardsAssigned": "Awards assigned",
+      "sendNominationSuccess": "Nominated works are sent for judging",
+      "printAllWorksPDFHeading": "Nominted Entries for {award}",
+      "sort": {
+        "reviewFirst": "Reviewed First",
+        "reviewLast": "Reviewed Last",
+        "statusASC": "Status (Ascending)",
+        "statusDESC": "Status (Descending)",
+        "entriesASC": "Entries (Ascending)",
+        "entriesDESC": "Entries (Descending)"
+      },
+      "topHeader": {
+        "totalLabel": "Total Panels:",
+        "totalMobileLabel": "Total Panels",
+        "incompleteLabel": "Not In Judging",
+        "progressLabel": "In Progress",
+        "finishedLabel": "Completed",
+        "calendarLabel": "Additional Awards Judging Start:",
+        "judgingDays": "{days} <label>{days, plural, one {day left} other {days left}}</label>",
+        "programEnd": "Program has ended"
+      },
+      "table": {
+        "award": "Award",
+        "type": "Type",
+        "status": "Status",
+        "entriesReviewed": "Entries Reviewed",
+        "winners": "Winners",
+        "nominees": "Nominees chosen",
+        "action": "Action"
+      },
+      "regionDetails": {
+        "regionalDeadlines": {
+          "heading": "Regional Deadlines",
+          "submission": "Regional Submission:",
+          "judging": "Regional Judging:",
+          "ceremony": "Regional Ceremony:",
+          "exhibition": "Regional Exhibition"
+        },
+        "awardDistribution": {
+          "heading": "Awards Distribution",
+          "eliminate": "Eliminated:",
+          "honorable": "Honorable mention:",
+          "silver": "Silver key:",
+          "gold": "Gold key:",
+          "visions": "American Visions"
+        },
+        "generalInfo": {
+          "heading": "General Info",
+          "user": "PartnerUsers:",
+          "school": "Schools/OEP's:",
+          "judges": "Judges:",
+          "participants": "Participants:",
+          "educators": "Educators"
+        },
+        "submissionInfo": {
+          "heading": "Submissions Info",
+          "judging": "In Judging:",
+          "notPaid": "Not Paid:allianceAdmin",
+          "incomplete": "Incomplete:",
+          "noWork": "No Works:"
+        }
+      }
+    },
+    "cashAwardsManagement": {
+      "mainHeading": "Manage Cash Awards",
+      "addNew": "Add new Award",
+      "goldMedal": "Gold Medal",
+      "statusChangeConfirm": "Are you sure you want to {status} this entry for current season?",
+      "success": "Cash Award successfully {variant}",
+      "nominated": "Works Nominated",
+      "nominate": "Nominate",
+      "sendForJudging": "SEND NOMINATED WORKS FOR JUDGING",
+      "nominateAll": "Nominate All displayed",
+      "awardHeading": "Award: {award}",
+      "worksRating": {
+        "heading": "Rate Work | Award: {award}"
+      },
+      "nomineesSelection": {
+        "heading": "Choose Nominees | Award: {award}",
+        "printThis": "PRINT THIS WORK"
+      },
+      "nomineDetails": {
+        "studentGrade": "Student Grade",
+        "personalInfo": "Participant Info",
+        "previousNomine": "Previous Work",
+        "nextNomine": "Next Nominee",
+        "totalWords": "Total words in the panel:",
+        "worksRated": "Works {variant} in This panel:",
+        "assignedAwards": "Assigned Awards:",
+        "extraAwarded": "Extra awards:  ",
+        "worksOptedInForThis": "Works Opted in for this Award:",
+        "printAllWorks": "print all works in this panel"
+      },
+      "table": {
+        "awardName": "Award Name",
+        "awardAmount": "Award Amount"
+      },
+      "form": {
+        "headingCashAward": "{variant} Cash Award",
+        "headingPortofil": "{variant} Portfolio Award",
+        "general": "General Info",
+        "checkBox": "Award Application Essay is Needed",
+        "goldMedalAmount": "Gold Medal Amount",
+        "silverMedalAmount": "Silver Medal Amount",
+        "name": {
+          "title": "Award Name",
+          "placeholder": "Enter Award Name"
+        },
+        "code": {
+          "title": "Award Code",
+          "placeholder": "Enter Award Code"
+        },
+        "limit": {
+          "title": "Entry Limit (optional)",
+          "placeholder": "Enter Number"
+        },
+        "type": {
+          "title": "Works Type",
+          "placeholder": "- Select -"
+        },
+        "category": {
+          "title": "Works Category",
+          "placeholder": "- Select -"
+        },
+        "grades": {
+          "title": "Grades",
+          "placeholder": "- Select -"
+        },
+        "amount": {
+          "title": "Award Amount",
+          "placeholder": "Enter an Amount in USD"
+        },
+        "amountOfAwardsWithType": {
+          "title": "Amount of {type} Awards"
+        },
+        "amountOfAwards": {
+          "title": "Amount of Awards",
+          "placeholder": "Enter a number"
+        },
+        "applicationDescription": {
+          "title": "Application Essay Description",
+          "placeholder": "Type in",
+          "info": "Explain what student needs to write in the application essay"
+        },
+        "minAmountOfSymbols": {
+          "title": "Minimum Amount of Symbols for Application Essay (optional)",
+          "placeholder": "Enter a number"
+        },
+        "maxAmountOfSymbols": {
+          "title": "Maximum Amount of Symbols for Application Essay (optional)",
+          "placeholder": "Enter a number"
+        },
+        "awardInfo": "Award Info",
+        "provideAQuestion": {
+          "title": "Provide a question which student will need to answer yes or no to apply for this award",
+          "placeholder": "Type in",
+          "info": "Example: Does your work address human rights theme?"
+        },
+        "awardDescription": {
+          "title": "Award Description",
+          "placeholder": "Type in",
+          "info": "Make a description, so students could understant if their work is eligible for this award"
+        },
+        "portfolio": {
+          "portfolioInfo": "{type} Portfolio Info",
+          "portfolioAwardInfo": {
+            "title": "Portfolio Award Info",
+            "wordAmountForArtistStatement": "{minMax} Amount of Words for Artist/Writer Statement (optional)",
+            "wordAmountForPersonalStatement": "{minMax} Amount of Words for Personal Statement (optional)"
+          },
+          "provideAQuestion": {
+            "title": "Statement Prompts",
+            "placeholder": "Type in",
+            "info": "Example: Does your work address human rights theme?"
+          },
+          "awardDescription": {
+            "title": "{type} Portfolio Description",
+            "placeholder": "Type in"
+          }
+        },
+        "notes": {
+          "title": "Internal Notes (optional)",
+          "placeholder": "Type in",
+          "info": "These notes will only be shown here, students will not see them"
+        },
+        "links": "Links (optional)",
+        "linkLabel": {
+          "title": "Link Label",
+          "placeholder": "Enter text"
+        },
+        "url": {
+          "title": "Link",
+          "placeholder": "URL"
+        },
+        "supporter": "Supporter Information",
+        "supporterName": {
+          "title": "Supporter Name",
+          "placeholder": "Enter text"
+        },
+        "supporterUrl": {
+          "title": "Supporter URL",
+          "placeholder": "Enter text"
+        },
+        "logo": {
+          "title": "Supporter Logo (visible on Scholarship Page)",
+          "placeholder": "Drag and drop or browse files",
+          "info": "White or transparent background in good quality. .JPG, .PNG, .GIF (max. 1 Mo)"
+        }
+      }
+    },
+    "manageCategories": {
+      "title": "Manage Categories",
+      "addNew": "ADD NEW CATEGORY",
+      "add": "ADD CATEGORY",
+      "update": "Save Changes",
+      "artCatInfo": "Art Category Info",
+      "writingCatInfo": "Writing Category Info",
+      "catDescription": "Category Description",
+      "success": " successfully {variant}",
+      "notAvailableActions": "Editing Categories is not available during submissions seasons",
+      "statusChangeConfirm": "Are you sure you want to {status} this category for current season?",
+      "form": {
+        "categoryName": "Category Name",
+        "catDescriptionInfo": "Make a description, so students could understant if their work falls into this category",
+        "examples": "Examples (optional)",
+        "examplesInfo": "Provide an exmaples of what can be in this category",
+        "specialInstructions": "Special Instructions (optional)",
+        "maxUpload": "Max File Uploads",
+        "maxUploadInfo": "Describe what student should upload in submission",
+        "collaborations": "Collaborations (optional)",
+        "collaborationsInfo": "Info about collaborations",
+        "dimension": "Dimensions",
+        "typeInLink": "Type in a link",
+        "galleryLink": "Gallery Link (optional)",
+        "dimensionInstructions": "Additional Instructions for dimensions (optional)",
+        "dimensionInstructionsInfo": "If you think, providing dimensions for this category may cause problems for students, try to explain all the uncertainties"
+      }
+    },
+    "bulkPayments": {
+      "title": "Bulk Payments Log",
+      "titleInfo": "Bulk Payments info",
+      "searchHeading": "Search Bulk Paid Work",
+      "searchResult": "Search Results",
+      "cancelBulkPayment": "CANCEL BULK PAYMENT",
+      "cancelModal": {
+        "description": "Are you sure to cancel bulk payment of selected entries",
+        "confirmCancel": "Cancel Bulk Payment",
+        "title": "Attempt to cancel bulk payment"
+      },
+      "bulkPaidBy": "Bulk Paid By",
+
+      "form": {
+        "firstName": "Bulk Payment Executor’s First Name",
+        "lastName": "Bulk Payment Executor’s Last Name",
+        "type": "Bulk Payment Executor’s User Type",
+        "date": "Bulk Payment Date"
+      }
+    },
+    "plagiarism": {
+      "heading": "Plagiarism Review",
+      "sortAsc": "Grade(Lower First)",
+      "sortDesc": "Grade(Higher First)",
+      "A-Z": "A-Z",
+      "Z-A": "Z-A",
+
+      "return": "Go Back",
+      "next": "Next Panel ({info})",
+      "topHeader": {
+        "totalLabel": "Total panels:",
+        "incompleteLabel": "Not Reviewed",
+        "progressLabel": "In Progress",
+        "finishedLabel": "Reviewed",
+        "calendarLabel": "Season End:",
+        "judgingDays": "{days} <label>{days, plural, one {day left} other {days left}}</label>",
+        "seasonEnd": "Season has ended"
+      },
+      "table": {
+        "category": "Category",
+        "panelStatus": "Panel Status",
+        "grade": "Grade",
+        "flag": "Flags",
+        "flagsub1": "Cited:",
+        "flagsub2": "Plagiarism Review:",
+        "reviewedWorks": "Reviewed Works",
+        "statusEnum": "{status, select, NR {Not Reviewed} IP {In Progress} RD {Reviewed} other {{status}}}"
+      },
+      "panelInfo": {
+        "category": "Category:",
+        "panelStatus": "Panel Status:",
+        "grade": "Grade:",
+        "works": "Works Reviewed:",
+        "total": "Total Works:",
+        "cited": "With Sources:",
+        "plagiarism": "Plagiarism Review Flags:",
+        "selectAll": "Select All",
+        "heading": "Panel: Painting, Grade 8",
+        "plagariseButton": "Confirm selected works as plagiarised",
+        "originalButton": "Confirm selected works as original",
+        "plagarised": "Plagiarised",
+        "original": "Original",
+        "worksLeft": "Left Works to review:",
+        "resetStatus": "Reset Status",
+        "filters": {
+          "show": "Show:",
+          "reset": "Reset Filters",
+          "silverKeyFilter": "Silver Key Awarded Works",
+          "goldKeyFilter": "Gold Key Awarded Works",
+          "reviewedFilter": "Reviewed Works",
+          "plagiarismFilter": "Works with plagiarism flag",
+          "citedFilter": "Works with Sources"
+        }
+      }
+    },
+    "nationalJudging": {
+      "heading": "National {type, select, A{Art} W{Writing} other{Writing}} Panels Management",
+
+      "startDateLabel": "National Judging Start:",
+      "judgingEnded": "National Judging Ended",
+      "notStartedLabel": "National judging has not started yet",
+      "notStartedMessage": "Panel generation for national judging will be available on this page when regional judging is finished",
+      "typeInNumber": "Type in a number",
+      "settingsInfo": "These settings are made for general panel generation. They can be changed later in panel editing section.",
+      "noNational": "No National Award:",
+      "silverMedal": "Silver Medal",
+      "goldMedal": "Gold Medal",
+      "suggested": "Suggested:",
+      "worksViewed": "Work Viewed in Round",
+      "worksAdvanced": "Works Advanced",
+      "confirmDelete": "This will remove the judge from the panel, Are you sure you want to remove?",
+      "removeHeader": "Remove Judge from Panel"
+    }
+  },
+
+  "educator": {
+    "signUpForm": {
+      "emailAndPassword": "Email and password",
+      "emailLabel": "Your email address",
+      "emailConfirmationLabel": "Email address confirmation",
+      "passwordLabel": "Password",
+      "passwordConfirmationLabel": "Password confirmation",
+      "firstNameLabel": "First Name",
+      "firstNamePlaceholder": "Your first name",
+      "namePlaceholder": "Your name",
+      "lastNameLabel": "Last Name",
+      "lastNamePlaceholder": "Your last name",
+      "phoneLabel": "Phone",
+      "phonePlaceholder": "XXX-XXX-XXXX",
+      "countryLabel": "Country",
+      "preferredEmailLabel": "Preferred Email",
+      "preferredEmailPlaceholder": "Preferred email address",
+      "phonePlaceHolder": "xxx-xxx-xxxx",
+      "preferredPhoneLabel": "Preferred Phone",
+      "address1Label": "Street Address 1",
+      "address2Label": "Street Address 2",
+      "mobileViewAddress1": "Address 1",
+      "mobileViewAddress2": "Address 2",
+      "mobileViewZip": "Type in",
+      "mobileViewZipPlaceholder": "Enter zipcode",
+      "mobileViewSchool": "Your school name",
+      "stateLabel": "State/Province",
+      "statePlaceholder": "-Select-",
+      "cityLabel": "City",
+      "zipLabel": "Zip Code",
+      "zipPlaceholder": "Enter Zip Code",
+      "schoolOption1": "I am a school educator",
+      "schoolOption2": "I am a homeschool educator",
+      "postalLabel": "Zip/Postal Code",
+      "postalPlaceholder": "Enter zip/postal code",
+      "schoolSearchLabel": "Search for your school",
+      "schoolSearchPlaceholder": "Your school's name",
+      "educationalProgramLabel": "Your educational program's name",
+      "mobileViewLabel": "Your educational program name",
+      "address": "My Address",
+      "confirmationBox": "I confirm that all information submitted is true and accurate to the best of my knowledge and I understand that submitting false information can result in disqualification and other consequences"
+    },
+    "basicInfo": {
+      "heading": "Participant",
+      "parentHeading": "Parent/Guardian"
+    },
+
+    "dashboard": {
+      "paymentButton": "Pay",
+      "searchHeading": "Search",
+      "updateButton": "Update",
+      "allPartcipantsToolTip": "Total number of participants who have identified you as an educator on one or more of their entry forms",
+      "allWorksToolTip": "Total number of entries uploaded by participants who identified you as an educator on their entry formss",
+
+      "readyForJudging": {
+        "readyForJudgingTitle": "Ready For Judging",
+        "readyForJudgingInfo": "Paid entries that are ready for judging (entry can still be edited until the deadline)",
+        "readyForJudgingWritingEntries": "Total ready for judging writing entries:",
+        "readyForJudgingArtEntries": "Total ready for judging art entries:"
+      },
+
+      "incomplete": {
+        "incompleteTitle": "Incomplete",
+        "incompleteNotPaid": "Incomplete & not paid",
+        "incompleteNotUpload": "Incomplete & not uploaded",
+        "incompleteInfo": "Works not submitted for judging and unpaid",
+        "incompleteWritingEntries": "Total incomplete writing entries:",
+        "incompleteArtEntries": "Total incomplete art entries:",
+        "noUploadsLabel": "Not Uploaded:",
+        "noPaidLabel": "Not Paid:",
+        "incompleteNotPaid": "All Incomplete & not paid Participants",
+        "incompleteNotUpload": "All Incomplete & not uploaded Participants"
+      },
+
+      "notPaid": {
+        "notPaidTitle": "Not Paid",
+        "notPaidInfo": "Works submitted for judging and unpaid",
+        "notPaidWritingEntries": "Total unpaid writing entries:",
+        "notPaidArtEntries": "Total unpaid art entries:"
+      },
+
+      "worksPanel": {
+        "infoCompleted": "General Info completed",
+        "workUploaded": "Work uploaded",
+        "cashAwardsCompleted": "Cash Awards reviewed",
+        "paymentStatus": "Paid",
+        "unpaid": "Unpaid",
+        "feeWaived": "Fee waived"
+      },
+
+      "menu": {
+        "heading": "Hi, {name}",
+        "menuTitle": "Manage",
+        "dashboardItem": "Dashboard",
+        "workItem": "Work",
+        "participantsItem": "Participants",
+        "bulkPaymentItem": "Bulk Payment",
+        "messagesItem": "Message",
+        "desktopBulkPaymentItem": "External Payment",
+        "profileTiitle": "Profile",
+        "schoolItem": "School",
+        "accountItem": "Account",
+        "searchBarHeading": "Choose Your Region",
+        "externalPayment": "External Payment"
+      },
+
+      "counts": {
+        "allWorksLabel": "All works",
+        "allParticipantsLabel": "All participants",
+        "allSchoolsLabel": "All schools and OEPs",
+        "entryDeadlineLabel": "<bold>Entry Deadline:</bold> <br> </br> <bold>{days}</bold> days left",
+        "allWorksSearchButton": "Search works",
+        "allParticipantsSearchButton": "Search participants"
+      },
+
+      "school": {
+        "educationalProgramHeading": "My Other Educational Program",
+        "educationalProgramLabel": "If you are an educator at Other Educational Program, then please add their info here."
+      }
+    },
+
+    "participants": {
+      "searchHeading": "Search a Participant in Your Region",
+      "searchParticipant": "Search Participant",
+      "heading": "Participants",
+      "bio": "Bio",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "barcode": "Barcode",
+      "grade": "Grade",
+      "gradePlaceholder": "- Select -",
+      "firstNamePlaceholder": "Participant's first name",
+      "lastNamePlaceholder": "Participant's last name",
+      "emailPlaceholder": "Participant's email",
+      "advanceSearchHeading": "Parent/Legal Guardian",
+      "advanceFirstNamePlaceholder": "Parent of legal guardian's first name",
+      "advanceLastNamePlaceholder": "Parent of legal guardian's last name",
+      "advanceEmailPlaceholder": "Parent of legal guardian's email",
+      "message": "Hi {firstName} {lastName}, {br}Preset message here….",
+      "schoolMesssage": "Hi {name}, {br}Preset message here….",
+      "messageWarning": "You are sending message to all the participants",
+      "messageInfo": "All  {status} Participants",
+      "messageAllParticipant": "Hi all, {br}Preset message here….",
+      "invite": {
+        "emailInfo": "You can invite more than one participant by adding a comma after every email address.",
+        "emailPlaceholder": "Email or emails separated by commas",
+        "send": "Send Invite"
+      }
+    },
+
+    "entries": {
+      "heading": "Entries",
+      "searchHeading": "Search",
+      "entryTitle": "Title",
+      "entryCategory": "Category",
+      "hideAdvance": "Hide advance search options",
+      "showAdvance": "Show advanced search options",
+      "entryTitlePlaceholder": "Work Title",
+      "preferredEmail": "Preferred Email",
+      "myaddress": "My Address (Optional)",
+      "workInfo": {
+        "title": "Title",
+        "category": "What is the category?",
+        "uploadImageLabel": "You may upload up to [#] different views of your entry",
+        "workDescriptionHeading": "Description",
+        "heightLabel": "Height",
+        "widthLabel": "Width",
+        "depthLabel": "Depth",
+        "materialDescription": "List the tools and materials used to create this entry:",
+        "materialLabel": "You can add multiple tools and materials",
+        "sourcesQuote": "Was another writer quoted in this work?",
+        "sourcesParaphrase": "Was another writer paraphrased in this work?",
+        "sourcesNeeded": "Was this entry inspired by another author's work?",
+        "sourcesListHeading": "You answered \"Yes\" to one of the above questions. Please list your sources.",
+        "sourcesListInstructions": "Please include a citation or URL for your source(s)"
+      },
+      "changePayment": {
+        "profile": "Profile Info",
+        "educators": "All educators",
+        "schools": "All schools",
+        "selectPaymentStatusButton": "Select Payment Status",
+        "table": {
+          "file": "File",
+          "type": "Type",
+          "category": "Category"
+        },
+        "desktopPayerPlaceholder": "Enter payer's info",
+        "mobilePayerPlaceholder": "Type in",
+        "notesPlacholder": "Hello",
+        "emailLabel": "Payer's Email Address",
+        "emailPlaceholder": "Enter email address",
+        "feeWaived": "Fee Waived",
+        "feeUnpaid": "Fee Unpaid",
+        "addWork": "Work entry added to invoice",
+        "createInvoiceButton": "+ CREATE NEW INVOICE"
+      }
+    },
+
+    "policies": {
+      "plagiarismPolicy": "I have read and understand the <link>Alliance's Copyright and Plagiarism policy </link>. I acknowledge that if my work violates this policy, then my work will be disqualified and any award received will be revoked.",
+      "participationTerms": "I have read and understand the <link>Participation Terms .</link>"
+    },
+
+    "bulkPayment": {
+      "heading": "Bulk Payments",
+      "desktopHeading": "External Payments - Invoices",
+      "table": {
+        "paymentNumber": "Bulk Payment Number",
+        "desktopPaymentNumber": "Invoice #",
+        "school": "School",
+        "date": "Date",
+        "amount": "Amount",
+        "status": "Status",
+        "action": "Action",
+        "sendInvoiceButton": "Print Invoice"
+      },
+      "bulkPaymentPopup": {
+        "heading": "Bulk Payment Details",
+        "invoice": "Invoice:",
+        "status": "Status:",
+        "notes": "Notes:",
+        "sendInvoiceButton": "Send Invoice"
+      },
+      "changeStatusPopup": {
+        "heading": "Change Status:",
+        "pending": "Pending",
+        "received": "Received",
+        "cleared": "Cleared"
+      }
+    },
+    "externalPayments": {
+      "heading": "External Payments - Invoices",
+      "table": {
+        "invoiceNo": "Invoice #",
+        "school": "School",
+        "date": "Date",
+        "amount": "Amount",
+        "total": "Total",
+        "status": "Status",
+        "action": "Action",
+        "sendInvoiceButton": "Print Invoice"
+      }
+    },
+    "invoice": {
+      "name": "Invoice",
+      "pdf": {
+        "heading": "Scholastic Awards Invoice",
+        "contact": "Contact",
+        "workType": "Work type",
+        "amount": "Amount",
+        "partner": {
+          "heading": "Payment Info",
+          "subHeading": "Make checks payable to"
+        }
+      },
+      "heading": "External Payments",
+      "changeInvoice": "Change Invoice details",
+      "remove": "Remove From Invoice",
+      "downloadInvoice": "Download Invoice",
+      "noEntries": "No Entries in the invoice",
+      "modal": {
+        "title": "Edit Invoice Details",
+        "paying": "Who is paying?",
+        "emailAddresses": "Email Addresses"
+      },
+      "details": {
+        "to": "To",
+        "email": "Email",
+        "notes": "Notes",
+        "generated": "Generated By",
+        "paymentDue": "Payment Due"
+      },
+      "table": {
+        "invoiceNo": "Invoice #",
+        "school": "School",
+        "date": "Date",
+        "amount": "Amount",
+        "status": "Status",
+        "action": "Action",
+        "sendInvoiceButton": "Print Invoice",
+        "exportAllJudges": "Export All Judges"
+      }
+    },
+    "message": {
+      "participant": "Send message to {total} participants"
+    }
+  },
+
+  "participants": {
+    "heading": "Welcome to the Art & Writing Awards",
+
+    "ageGate": {
+      "info": "Can I apply to the program this year?",
+      "dob": "Date of birth",
+      "dateFormatInfo": "mm/dd/yyyy",
+      "yearLabel": "This year I am in",
+      "gradePlaceholder": "Select grade",
+      "ageLimit": "We are very sorry the program is only open to people over 13 years old.",
+      "questions": "Any questions, read the <termsLink>Participation Terms</termsLink>",
+      "createButton": "Create my account",
+      "inProgess": "In Progress",
+      "haveAccount": "Have an account? <link>Click here to login</link>."
+    },
+
+    "region": {
+      "heading": "Your Region",
+      "stateLabel": "State",
+      "countryLabel": "Country",
+      "zipLabel": "ZIP Code",
+      "searchSchoolLabel": "Search for your school",
+      "searchSchoolPlaceholder": "Your school name",
+      "searchProgramLabel": "Search for your program",
+      "searchProgramPlaceholder": "Your program name",
+      "schoolLink": "Can't find your school in the list? Send us a message",
+      "programLink": "Can't find your program in the list? Send us a message",
+      "enterZip": "Enter your school state and ZIP code to search for schools",
+      "noResults": "Sorry, we can't find any results...",
+      "schoolOption": "I attend a school",
+      "homeSchoolOption": "I am a home-schooled student",
+      "changeSchoolTitle": "Change School",
+      "addProgramTitle": "Add Educational Program",
+      "usOption": "United States",
+      "canadaOption": "Canada"
+    },
+
+    "info": {
+      "heading": "My Info",
+      "questions": "Why are we asking you this question? Read the <termsLink>Participation Terms</termsLink>",
+      "passwordPrompt": "* Password must contain at least 8 characters, at least one uppercase letter, and one lowercase letter"
+    },
+
+    "parent": {
+      "heading": "My Parent (or Legal Guardian)",
+      "contactWarning": "* Your parent (or legal guardian) phone number or email is mandatory. We will be sending a message to this phone number or an email.",
+      "notApprovedTitle": "Your Parents or Legal Guardian must approve your application",
+      "notApprovedInfo": "Please, verify email address and/or phone number.",
+      "approvedTitle": "{firstName} {lastName} has approved your application",
+      "resendButton": "Send a Reminder",
+      "approvalRequestSent": "Approval request sent"
+    },
+
+    "approval": {
+      "heading": "Parent Approval",
+      "approveButton": "Approve",
+      "approveCheckbox": "I accept the terms and conditions",
+      "approveCheckboxRequired": "Please accept the terms and conditions"
+    },
+
+    "verification": {
+      "emailVerified": "Email Verified"
+    },
+
+    "dashboard": {
+      "menu": {
+        "heading": "Hi, {name}",
+        "dashboardTitle": "Dashboard",
+        "workItem": "Work",
+        "messagesItem": "Messages",
+
+        "accountTitle": "Account",
+        "profileItem": "Profile",
+        "parentItem": "Parent/Guardian",
+        "schoolItem": "School/Programs"
+      },
+
+      "deleteConfirm": {
+        "entry": "Are you sure you want to delete this entry?",
+        "portfolio": "Are you sure you want to delete this portfolio?"
+      },
+
+      "profileInfoIncompleteAlert": "Your Profile is not complete - Make sure it is complete before you send your work.",
+      "profileParentIncompleteAlert": "Your Parent/Guardian is not complete - Make sure it is complete before you send your work.",
+      "approvalRequiredAlert": "Your Parents or Legal Guardian must approve your application",
+      "accountButton": "View Profile",
+
+      "myWorkTitle": "My Work",
+      "myPortfolioTitle": "My Portfolio",
+      "addPortfolioButton": "Add Portfolio",
+      "addEntryButton": "Add Work",
+
+      "entryBasicInfoNotComplete": "Work form incomplete",
+      "entryBasicInfoComplete": "General Info completed",
+
+      "entryNotUploaded": "Work/s not uploaded",
+      "entryUploaded": "Work uploaded",
+
+      "entryCashAwardComplete": "Cash Awards reviewed",
+      "entryCashAwardNotComplete": "Cash Awards not reviewed",
+
+      "portfolioEnteredForJudging": "Entered for judging",
+      "portfolioNotEnteredForJudging": "Not entered for judging",
+      "portfolioPaid": "Entry Paid",
+      "portfolioNotPaid": "Entry Unpaid",
+
+      "myEducatorsTitle": "My Educators",
+
+      "scholarshipsTitle": "Featured National Scholarships",
+      "scholarshipsInfo": "<link>Learn about our scholarships and how to apply in 2022.</link>",
+
+      "termsTitle": "Participation Terms",
+      "termsInfo": "<link>Click here to read the A&W Participation Terms</link>",
+
+      "myRegionTitle": "My Region",
+
+      "artDeadline": "Art Deadline",
+      "writingDeadline": "Writing Deadline",
+      "dash": "-",
+      "deadlinePassed": "Deadline passed {numDays} {numDays, select, 1 {day} other {days}} ago",
+
+      "unpaidEntriesTitle": "Unpaid entries",
+      "unpaidEntriesButton": "Pay for Work",
+      "resendEmailVerification": "Resend email",
+      "emailSent": "Email has  been sent",
+      "welcomeBack": "Welcome back!",
+      "gradeChangeAlert": "To keep our records up to date. Please, let us know, which grade you are currently in.",
+
+      "emailNotVerified": "Your email is not verified please send resend email verification",
+      "feeWaiver": {
+        "title": "Fee waiver",
+        "checkbox": "I qualify for a fee waiver for this work entry.",
+        "placeholder": "First and last name",
+        "prefix": "I certify ",
+        "suffix": " , that I am eligible for the fee waiver according to ",
+        "suffixLink": "the conditions established by Art & Writing.",
+        "info": "Your request will be reviewed before approval. You will be informed within 7 to 14 days. In case of a negative decision, you will be able to choose another payment method.",
+        "certify": "Certify"
+      }
+    },
+    "portfolio": {
+      "basicInfoTab": "General Info",
+      "uploadTab": "Upload",
+      "statement": "Statement",
+      "reviewTab": "Review",
+      "work": "Work",
+      "uploadArt": {
+        "mainHeading": "Art Portfolio Entry"
+      },
+      "uploadWriting": {
+        "mainHeading": "Writing Portfolio Entry"
+      },
+      "statementInfo": {
+        "statementHeading": "Portfolio Scholorships",
+        "statementPara1": "Theme: The Portfolio Awards, made possible by generous individual donors and other supporters, offer $10,000 scholarships to Gold Medal Portfolio winners and $1,000 scholarships to Silver Medal with Distinction Portfolio winners. ",
+        "statementPara2": "All graduating seniors submitting a collection of six works with accompanying Writer Statements and Personal Statements (500 words or less) are eligible. You will be prompted to include an Artist or Writer Statement and a Personal Statement about your work. ",
+        "statementLink": "Visit our blog for additional tips on crafting your statements. ",
+        "worksInstructionsList1": "What do you want your audience to understand about your collection of works?",
+        "worksInstructionsList2": "What is a significant challenge, setback, or failure that you experienced? How did you respond to it? How did it affect you, and what did you learn from the experience?",
+        "writerStatement": "Writer Statements",
+        "artistStatement": "Artist Statements",
+        "writerStatementPlaceholder": "Type in...",
+        "personalStatementPlaceholder": "Type in...",
+        "personalStatement": "Personal Statements",
+        "wordsCount": "{count} words or less."
+      },
+      "basicInfo": {
+        "mainHeading": "Portfolio Entry",
+        "heading": "Basic info to introduce your portfolio",
+        "title": "Portfolio title",
+        "categoryType": "What type of portfolio is this?",
+        "limit": "One student can upload only 2 {variant} portfolios. You can upload {count} more.",
+        "cannotUpload": "You can not apply more portfolios. Limit for one student is 2 {variant} portfolios"
+      },
+      "upload": {
+        "worksUploadedHeading": "Works Uploaded:",
+        "worksUploadedSubHeading": "Portfolios must consists of exactly 6 works",
+        "worksIntructionLine1": "Please pay attention to the layout; presentation is very important too!",
+        "worksIntructionLine2": "Click HERE to view the guidelines for writing entries.",
+        "worksIntructionsListItem1": "Do not use real names.",
+        "worksIntructionsListItem2": "Do not include images or hyperlinks in your submission.",
+        "worksIntructionsListItem3": "Entries containing the author's name or other personal information may be disqualified.",
+        "worksIntructionsListItem4": "Note: Must be more than 500 words and less than 3,000 words."
+      },
+      "review": {
+        "mainArtHeading": "Art Work Review",
+        "mainWritingHeading": "Writing Work Review",
+        "heading": "Review your info before you go",
+        "continueButton": "Enter for Judging",
+        "payNowTitle": "Your work was entered for judging pending payment.",
+        "payNowInfo": "If you are ready to pay now - proceed to the next screen.",
+        "payNowButton": "Pay Now",
+        "payLaterButton": "Pay Later",
+        "approvalNeeded": "Parent/Legal Guardian Approval must approve your application before Payment for your Entry can be collected.",
+
+        "general": {
+          "titleLabel": "Portfolio title",
+          "typeLabel": "Portfolio type"
+        },
+        "submission": {
+          "heading": "Show Portfolio Entries"
+        },
+        "workSection": {
+          "title": "Work title",
+          "workType": "Work type",
+          "category": "Category",
+          "summary": "Summary of work",
+          "headingPart1": "Work",
+          "headingPartPortfolio": "Portfolio",
+          "headingPart2": "Info",
+          "upload": {
+            "title": "Uploads",
+            "uploadedWork": "Uloaded Work",
+            "uploaded": "Uploaded writing work"
+          }
+        },
+        "upload": {
+          "uploaded": "Uploaded work",
+          "sourcesHeading": "My Sources",
+          "sources": "Sources"
+        },
+
+        "writingUpload": {
+          "heading": "Upload",
+          "work": "Uploaded writing work"
+        }
+      }
+    },
+    "work": {
+      "basicInfoTab": "Basic Info",
+      "uploadTab": "Upload",
+      "cashAwardsTab": "Cash Awards",
+      "reviewTab": "Review",
+
+      "basicInfo": {
+        "mainHeading": "Manage Your Work Entry",
+        "heading": "Basic info to introduce your work",
+        "title": "Title",
+        "categoryType": "What type of work is this?",
+        "category": "What is the category?",
+        "summary": "Please write a brief summary of your work below",
+        "modalTitle": "Overwrite entry",
+        "modalDescription": "You have changed the category. This will overwrite your existing entry.",
+
+        "schoolTitle": "School information",
+        "schoolInfo": "Your school ",
+        "addProgramInfo": "Did you work on this submission at another educational program?",
+        "homeSchoolOption": "Home school",
+
+        "educatorTitle": "Educator information",
+        "educatorInfo": "If your educator helped you to create this work, please add.",
+        "educatorLabel": "Add an educator from your connected school/programs",
+        "educatorPlaceholder": "Select an educator",
+        "noEducatorLabel": "I created the work on my own.",
+        "educatorNotFoundOption": "I did not find my educator",
+        "contactEducatorInfo": "Please contact your educator and ask them to create an account so that you can assign them to your work entry."
+      },
+
+      "upload": {
+        "sourcesHeading": "My Sources",
+        "sourcesInstructions": "The Scholastic Awards recognizes original work. Please review our <link>Copyright and Plagiarism guide</link> before making a selection. If there are sources that influenced your work, you must list them below.",
+        "sourcesListHeading": "You answered \"Yes\", to one of the above questions. Please list your sources.",
+        "sourcesListInstructions": "Please include a text string or a valid URL."
+      },
+
+      "uploadArt": {
+        "mainHeading": "Art Work Entry",
+        "heading": "Upload your art work",
+        "uploadImageHeading": "Upload My Images",
+        "uploadImageLabel": "You may upload your work from different angles",
+        "uploadImageLabelUpdated": "You may upload up to [#] different views of your entry",
+        "describeWorkHeading": "Describe My Work",
+        "describeWorkDimensions": "What are the dimensions of your work entry?",
+        "materialsCaption": "List the tools and materials used to create this entry:",
+        "materialsLabel": "Add as many materials and tools as you need.",
+        "materialsPlaceholder": "Type in and press enter",
+        "heightLabel": "Add Height",
+        "heightPlaceholder": "Height(in inches)",
+        "widthLabel": "Add Width",
+        "widthPlaceholder": "Width(in inches)",
+        "depthLabel": "Add Depth",
+        "depthPlaceholder": "Depth(in inches)",
+        "sourcesQuote": "Did you reference work by another artist?",
+        "sourcesParaphrase": "Did you reference images or ideas you found on the Internet?",
+        "sourcesInspired": "Were you inspired by any other artists?"
+      },
+
+      "uploadWriting": {
+        "mainHeading": "Writing Work Entry",
+        "heading": "Upload your writing work",
+        "specialInstructions": "Special Instructions",
+        "sourcesQuote": "Did you quote another writer?",
+        "sourcesParaphrase": "Did you paraphrase another writer?",
+        "sourcesInspired": "Were you inspired by another writer?",
+        "workHeading": "My work",
+        "copyPaste": "Copy and paste your writing entries into the text box below.",
+        "rules": {
+          "length": "Must be between {min} and {max, plural, one {# {type, select, CHR {character} LIN {line} WRD {word} other {type}}} other {# {type, select, CHR {characters} LIN {lines} WRD {words} other {type}}}}{count, select, 0 {} other { (currently {count})}}."
+        }
+      },
+
+      "cashAwards": {
+        "mainHeading": "More Opportunities!",
+        "heading": "Apply for additional Cash Awards and Scholarships",
+        "infoHeading": "You can receive additional cash awards and scholarships for your work!",
+        "info": "You can nominate your work for consideration below by providing a personal statement on how your work addresses the selected theme. Personal statements will be taken into consideration when making final scholarship selections.{br}<b>MAKE SURE YOU KNOW WHAT YOU ARE APPLYING FOR!</b>",
+        "additionalDetails": "Additional Details",
+        "placeholder": "Type in...",
+        "entryUpdateSuccess": "Entry Successfully Updated"
+      },
+
+      "review": {
+        "mainArtHeading": "Art Work Review",
+        "mainWritingHeading": "Writing Work Review",
+        "heading": "Review your info before you go",
+        "continueButton": "Enter for Judging",
+        "payNowTitle": "Your work was entered for judging pending payment.",
+        "payNowInfo": "If you are ready to pay now - proceed to the next screen.",
+        "payNowButton": "Pay Now",
+        "payLaterButton": "Pay Later",
+        "approvalNeeded": "Parent/Legal Guardian Approval must approve your application before Payment for your Entry can be collected.",
+
+        "general": {
+          "heading": "General Info",
+          "generalInfoHeading": "General information",
+          "schoolInfoHeading": "School information",
+          "educatorInfoHeading": "Educator information",
+          "titleLabel": "Work title",
+          "typeLabel": "Work type",
+          "categoryLabel": "Category",
+          "summaryLabel": "Summary of work",
+          "schoolLabel": "School",
+          "educatorLabel": "Educator",
+          "educatorNotFound": "I did not find my educator",
+          "noEducator": "I created the work on my own."
+        },
+
+        "upload": {
+          "uploaded": "Uploaded work",
+          "sourcesHeading": "My Sources",
+          "sources": "Sources",
+          "materials": "Materials"
+        },
+
+        "writingUpload": {
+          "heading": "Upload",
+          "work": "Uploaded writing work"
+        },
+
+        "artUpload": {
+          "heading": "Uploads",
+          "work": "Uploaded images",
+          "descriptionHeading": "Work description",
+          "height": "Height",
+          "width": "Width",
+          "depth": "Depth",
+          "tools": "Tools and materials used to create this work",
+          "noneAdded": "None added"
+        },
+
+        "awards": {
+          "heading": "Cash Awards",
+          "optedIn": "Opted in",
+          "none": "None"
+        },
+
+        "profile": {
+          "heading": "Personal information",
+          "warning": "Please, make sure this information is correct.",
+          "nameLabel": "Name",
+          "gradeLabel": "Grade",
+          "parentLabel": "Parent/Guardian",
+          "regionLabel": "Region",
+          "editButton": "Edit Profile"
+        },
+
+        "terms": {
+          "acceptedPlagiarismPolicyCheckboxSuffix": "I have read and understand the <link>Alliance's Copyright and Plagiarism policy</link>.<br></br>I acknowledge that if my work violates this policy, then my work will be disqualified and any award received will be revoked.",
+          "acceptedParticipationTermsCheckboxSuffix": "I have read and understand the <link>Participation Terms</link>."
+        },
+
+        "payment": {
+          "heading": "Payment information",
+          "statusLabel": "Status"
+        }
+      },
+
+      "payment": {
+        "mainHeading": "Pay for Work",
+        "entry": {
+          "heading": "Your works are eligible for payment and submission"
+        },
+        "invoice": {
+          "title": "Work Title",
+          "quantity": "Quantity",
+          "price": "Price",
+          "amount": "Amount",
+          "total": "Total"
+        },
+        "method": {
+          "heading": "Payment",
+          "cardRadio": "Credit or debit card"
+        },
+        "addEntryButton": "Add another work",
+        "payButton": "Pay",
+        "submitButton": "Submit",
+        "modalTitle": "Warning",
+        "modalDescription": "You should not change work type and category "
+      },
+      "noWork": "Work not uploaded",
+
+      "summary": {
+        "titleLabel": "Work title",
+        "typeLabel": "Work type",
+        "categoryLabel": "Category",
+        "awardsLabel": "Opted in",
+        "editButton": "Edit"
+      }
+    },
+
+    "account": {
+      "heading": "My Account",
+      "update": "Update",
+      "infoTab": "My Info",
+      "parentTab": "My Parent/Guardian",
+      "regionTab": "My Region",
+      "myAddress": "My Address (Optional)",
+      "updateButton": "Update My Account",
+
+      "region": {
+        "schoolTitle": "I am a school participant",
+        "homeSchooled": "I am a home school participant",
+        "editSchoolButton": "Change School",
+        "addProgramButton": "Add Program",
+        "programsTitle": "Other Educational Programs",
+        "programsInfo": "If you attend any Educational Programs, please add them here."
+      }
+    },
+    "educators": {
+      "heading": "My Region Educators",
+      "info": "The following {numEducators, plural, one {educator currently has} other {educators currently have}} access to your account to help you:",
+      "none": "No educators assigned",
+      "updated": "Your educators have been saved."
+    }
+  },
+
+  "educators": {
+    "heading": "Welcome to the Scholastic Art & Writing Awards",
+    "address": "Your Address(Optional)",
+    "emailAndPassword": "Email and Password",
+    "participantEmail": "Send A message to All Participants",
+    "schoolInfo": "School Information",
+    "otherEducationalInfo": "Other Educational Program (Optional)",
+    "participant": {
+      "schoolHeading": "School/Other Educational Program information"
+    }
+  },
+
+  "judges": {
+    "signUp": {
+      "heading": "Judge Sign Up"
+    },
+
+    "menu": {
+      "info": {
+        "title": "Judge Info",
+        "panels": "Judging Panels",
+        "contact": "Contact Info",
+        "prefs": "Preferences"
+      }
+    },
+
+    "contactInfo": {
+      "contactHeading": "Contact information",
+      "emailInfo": "This is the email you use to log in"
+    },
+
+    "prefs": {
+      "prefWritingHeading": "Juror Preferences for the Scholastic Writing Awards",
+      "prefWritingIntro": "Please take a few minutes to complete the following form. This information will help us create a right panels for you.",
+      "categoriesHeading": "Select the writing categories that you prefer to judge",
+      "categoriesInfo": "Mark the categories you would like to judge and also the categories you are prefer to avoid. You can check more than one category for each column.",
+      "preferTableHeading": "Prefer to Judge",
+      "avoidTableHeading": "Prefer to avoid",
+      "categoriesTableHeading": "Categories",
+
+      "prevJudgingHeading": "Previous adjudication",
+      "prevJudgingInfo": "Have you previously adjudicated for the Scholastic Awards?",
+      "prevJudgingLastYear": "Yes, last year",
+      "prevJudgingNotRecent": "Yes, but not in the last year",
+      "prevJudgingNo": "No",
+
+      "hoursReadingTitle": "Amount Of Hours To Read",
+      "hoursReadingInfo": "How many hours can you spare to read in monthly period of judging?",
+
+      "readingSpeedTitle": "Reading Speed",
+      "readingSpeedInfo": "Mark the approximate speed of your reading",
+      "readingSpeedFast": "Fast",
+      "readingSpeedMedium": "Medium",
+      "readingSpeedSlow": "Slow"
+    },
+
+    "panels": {
+      "heading": "Your Judging Panels",
+      "notStartedTitle": "Judging has not started yet",
+      "notStartedInfo": "Your judging panels will be shown here when it starts",
+
+      "reviewedHeading": "Works Reviewed",
+      "wordsHeading": "Words",
+      "startButton": "Start Judging"
+    },
+
+    "instructions": {
+      "heading": "Before you begin judging, please read the following instructions",
+      "scale": "Score each work on a scale of1 to 10, one being the lowest score and the the highest score, based on the following three criteria:",
+      "originalityTitle": "Originality",
+      "originalityDesc": "An innovative approach to process, concept and subject matter. Originality often manifests itself in works that go beyond the classroom assignment",
+      "skillTitle": "Technical Skill",
+      "skillDesc": "Ability to work fluently in a particular genre. Technical skill is utilized to advance an original idea or perspective. Do not penalize for minor typos.",
+      "voiceTitle": "Emergence of a Personal Voice",
+      "voiceDesc": "Evidence of the writer’s unique style, sensibility and perspective.",
+      "notesTitle": "Additional Notes",
+      "range": "Provide a wide range of scores. Scoring all works similarly does not help us discern who should earn Awards.",
+      "adjustable": "Scores can be adjusted at the end of the judging process if necessary.",
+      "plagiarized": "If you feel a work may be plagiarized or have elements stolen from copyrighted work, please continue to score the work and check the box “Review for plagiarism.” Leave a note in the text box to describe how the work seems familiar.",
+      "guideline": "View the Writing Rubric (guidelines for scoring works)",
+      "accept": "I have read and fully understand the judging criteria."
+    },
+
+    "panel": {
+      "heading": "Panel: {category}",
+      "startJudgingButton": "Start Judging",
+      "continueJudgingButton": "Continue Judging",
+      "completeJuding": "Complete Judging",
+      "ratedBarLabel": "Works rated in this panel:"
+    },
+
+    "panelEntries": {
+      "heading": "Works in this Panel:",
+      "title": "Work title",
+      "words": "Number of words",
+      "score": "Score",
+      "recuse": "Recuse work",
+      "judgeButton": "Judge Work",
+      "chooseScore": "-"
+    },
+
+    "rate": {
+      "heading": "Rate Work",
+      "printButton": "Print this Work",
+      "returnButton": "Return to Panel",
+      "rateSectionHeading": "Rate this Work",
+      "instructions": "Score this work on a scale of 1 to 10, one being the lowest score and the the highest score, based on the following three criteria: Originality, Technical Skill and Emergence of a Personal Voice.",
+      "nominate": "Nominate this work for american voices",
+      "nominateInfo": "Every year, five works are selected as “Best of Show” for each region. Does this work stand out to you as superior to all the rest? If so, be sure to nominate it for American Voices.",
+      "recuse": "Recuse",
+      "recuseInfo": "Judges should recuse themselves from scoring a work if they think they will reflect their personal biases.",
+      "review": "Review for Plagiarism",
+      "comments": "Comments (optional)",
+      "nextWorkButton": "Next Work",
+      "skipWorkButton": "Skip Work",
+      "contact": "Thank you for your participation! Please email {email} if you have any questions.",
+      "summaryTitle": "Work Summary",
+      "summary": "(Work Summary)",
+      "judgingGuide": "Judging Guide"
+    }
+  },
+
+  "partners": {
+    "noRegion": "Your partner account is not associated with any regions.  Please contact Art & Writing.",
+    "chooseRegion": "Region",
+    "preview": "Preview",
+
+    "menu": {
+      "processing": {
+        "title": "Processing",
+        "dashboard": "Dashboard",
+        "search": "Search",
+        "payment": "Payment",
+        "bulk": "Bulk"
+      },
+      "administration": {
+        "title": "Administration",
+        "overview": "Overview",
+        "calendar": "Calendar",
+        "users": "Users",
+        "region": "Regional Info",
+        "documents": "Documents",
+        "payments": "Payments",
+        "zips": "Regional zip code coverage",
+        "publicPage": "Region public page"
+      },
+      "judging": {
+        "panels": "Panels",
+        "judges": "Judges"
+      }
+    },
+
+    "search": {
+      "heading": "Search",
+      "workTab": "Work",
+      "searchWork": "Search Work",
+      "participantTab": "Participant",
+      "educatorTab": "Educator",
+      "schoolTab": "School",
+      "showAdvanced": "Show advanced search options",
+      "hideAdvanced": "Close advanced search options",
+
+      "entriesHeading": "Search a work in your region",
+      "participantsHeading": "Search a participant in your region",
+      "educatorsHeading": "Search an educator in your region",
+      "schoolsHeading": "Search an school/program in your region",
+
+      "fields": {
+        "entryTitle": "Work",
+        "entryTitleLabel": "Work title",
+        "entryTypeLabel": "Work type",
+        "workTitle": "Work Title",
+        "thumbnail": "Thumbnail",
+        "thumbnails": "Show Thumbnails",
+        "bioTitle": "Bio",
+        "location": "Location",
+        "parentpermission": "Parent permission ",
+        "workStatus": "Work Status",
+        "school": "School",
+        "workUploaded": "Work Uploaded",
+        "participantFirstNamePlaceholder": "Participant's first name",
+        "participantLastNamePlaceholder": "Participant's last name",
+        "participantEmailPlaceholder": "Participant's email",
+        "participantCityPlaceholder": "Participant's city",
+        "participantStatePlaceholder": "Participant's state",
+        "participantsName": "Participants Name",
+        "schoolTitle": "School/Program",
+        "schoolNamePlaceholder": "School/program name",
+        "OtherEducationalProgram": "Other Educational Program Name",
+        "educatorTitle": "Educator",
+        "parentLegalTitle": "Parent/Legal Guardian",
+        "parentLegalFirstNamePlaceholder": "Parent of legal Guardian's first name",
+        "parentLegalLastNamePlaceholder": "Parent of legal Guardian's last name",
+        "parentLegalEmailPlaceholder": "Parent of legal Guardian's email",
+        "educatorFirstNamePlaceholder": "Educator's first name",
+        "educatorLastNamePlaceholder": "Educator's last name",
+        "educatorEmailPlaceholder": "Educator's email",
+
+        "parentTitle": "Parent/Guardian",
+        "parentFirstNamePlaceholder": "Parent/Guardian's first name",
+        "parentLastNamePlaceholder": "Parent/Guardian's last name",
+        "parentEmailPlaceholder": "Parent/Guardian's email",
+
+        "awardsTitle": "Awards",
+        "awardsLabel": "Awards",
+
+        "statusTitle": "Work Status",
+        "statusLabel": "Work Status",
+
+        "extraTitle": "Additional Filters",
+        "privateLabel": "Hide private works in results",
+
+        "participantNameLabel": "Participant",
+        "schoolNameLabel": "School",
+        "homeSchool": "Home school"
+      }
+    },
+
+    "counts": {
+      "allWorksLabel": "All works",
+      "allWorksSearchButton": "Search works",
+      "allParticipantsLabel": "All participants",
+      "allParticipantsSearchButton": "Search participants",
+      "allEducatorsLabel": "All educators",
+      "allEducatorsSearchButton": "Search educators",
+      "allSchoolsLabel": "All schools",
+      "allSchoolsSearchButton": "Search schools"
+    },
+
+    "dashboard": {
+      "allWorksTooltip": "Total number of work entries initiated by participants in your region including completed works and incomplete works.",
+      "allParticipantsTooltip": "Total number of participants in your region including participants who may submit entries for both Arts and Writing categories.",
+      "allEducatorsTooltip": "Total number of educators who created accounts in your region.",
+      "allSchoolsTooltip": "Total number of schools in your region. Zip code coverage for your region can be found on the left Sidebar for reference. ",
+
+      "inJudgingTitle": "In Judging",
+      "inJudgingInfo": "Works submitted for judging and paid (can be still edited until the deadline)",
+      "notPaidTitle": "Entry Unpaid",
+      "notPaidInfo": "Works submitted for judging and unpaid",
+      "incompleteTitle": "Incomplete",
+      "incompleteInfo": "Works not submitted for judging and unpaid",
+      "noWorkTitle": "No Work",
+      "noWorkInfo": "Works not submitted for judging and unpaid",
+
+      "infoCompleted": "Work form completed",
+      "infoUploaded": "Work uploaded",
+      "infoEntered": "Entered for judging",
+      "infoPermission": "Parent/guardian permission ",
+      "infoPaid": "Entry paid",
+      "numWorks": "Number of works:",
+
+      "writingEntriesLabel": "Writing Entries:",
+      "artEntriesLabel": "Art Entries",
+      "writingEntriesTitle": "Writing Entries",
+      "artEntriesTitle": "Art Entries",
+      "participantsTitle": "Participant Accounts",
+
+      "stripePaidLabel": "Stripe paid:",
+      "waiverLabel": "Fee waiver:",
+      "otherPaymentLabel": "Other payment:",
+      "bulkPaymentLabel": "Bulk payment:",
+      "overridePaymentLabel": "Override payment:",
+      "noUploadsLabel": "No uploads:",
+      "notEnteredLabel": "Not entered:",
+      "noPermissionLabel": "Permission missing:",
+      "spacing": "  ",
+
+      "messageOption": "Message",
+      "messageBoxHeader": "Message to:",
+      "messageAllOption": "All",
+      "messageParentsOption": "Message Parents",
+      "messageEducatorsOption": "Message Educators",
+      "messageParticipantsOption": "Message Participants",
+
+      "changePaymentButton": "Change Payment",
+      "overrideButton": "Override",
+      "overrideConfirm": "Are you sure you want to override these works to judging?"
+    },
+
+    "entryTable": {
+      "thumbnailsCheckbox": "Thumbnails",
+      "file": "File",
+      "uploaded": "Work Uploaded",
+      "entered": "Entered for Judging",
+      "permission": "Parent permission",
+      "payment": "Payment Type",
+      "judging": "In Judging",
+      "school": "School",
+      "schools": "School(s)",
+      "grade": "Grade",
+      "homeSchoolOption": "Home school",
+      "participant": "Participant",
+      "educator": "Educator",
+      "numInJudging": "Judging",
+      "numNotInJudging": "NOT Judging"
+    },
+
+    "signUp": {
+      "heading": "Partner Sign Up"
+    },
+
+    "users": {
+      "heading": "Admin & Users",
+      "subheading": "Edit Permissions or Add Users",
+      "userTable": {
+        "heading": "Users",
+        "addUserButton": "Add User",
+        "disabled": "Disable",
+        "judgesHeading": "Judges"
+      },
+
+      "editUserTitle": "Edit User",
+      "addUserTitle": "Add User",
+      "deactivateUserTitle": "Deactivate User",
+      "deactivateConfirmation": "Are you sure you want to deactivate this user?",
+      "userAdded": "User successfully added!"
+    },
+
+    "participant": {
+      "heading": "PARTICIPANT: {name}",
+
+      "infoLabel": "Profile info",
+      "allWorksTooltip": "All work entries including completed works and incomplete works.",
+      "allEducatorsTooltip": "All educators associated with this participant.",
+      "allSchoolsTooltip": "All schools and programs associated with this participant",
+
+      "infoHeading": "Personal information",
+      "parentHeading": "Parent/Guardian information",
+      "schoolHeading": "School information",
+      "permissionLabel": "Permission",
+      "noPermissionTitle": "Parent/Guardian permission not yet received",
+      "schoolLabel": "School:",
+      "programLabel": "Other educational program:",
+      "addProgramButton": "Add Program"
+    },
+
+    "educator": {
+      "heading": "EDUCATOR: {name}",
+      "infoLabel": "Profile info",
+      "infoTitle": "Educator information",
+      "allWorksTooltip": "Total number of work entries including completed works and incomplete works.",
+      "allParticipantsTooltip": "All participants associated with this educator.",
+      "allSchoolsTooltip": "All schools and programs associated with this educator",
+
+      "table": {
+        "heading": "Educators"
+      }
+    },
+
+    "entries": {
+      "heading": "Entries",
+
+      "table": {
+        "heading": "Entries"
+      }
+    },
+
+    "school": {
+      "schoolHeading": "SCHOOL: {name}",
+      "programHeading": "PROGRAM: {name}",
+
+      "infoLabel": "School info",
+      "allWorksTooltip": "All work entries including completed works and incomplete works.",
+      "allParticipantsTooltip": "All participants associated with this school.",
+      "allEducatorsTooltip": "All educators associated with this school",
+
+      "schoolInfoHeading": "School information",
+      "programInfoHeading": "Educational program information",
+
+      "table": {
+        "heading": "Schools"
+      }
+    },
+
+    "documents": {
+      "heading": "Documents",
+      "subheading": "Add or Remove Documents",
+      "documentAdded": "Document Successfully Added!",
+      "deleteConfirmation": "Are you sure you want to delete this document?",
+      "modal": {
+        "addTitle": "Add Document",
+        "editTitle": "Edit Document",
+        "titleLabel": "Document Title",
+        "documentLabel": "Upload Your Document"
+      },
+      "documentsTable": {
+        "heading": "Documents",
+        "title": "Title",
+        "contentType": "Content Type",
+        "addDocumentButton": "Add Document"
+      }
+    },
+
+    "region": {
+      "mainHeading": "Regional Info",
+      "heading": "Information for your region",
+      "yourRegionTitle": "Your Region",
+      "yourRegionInfo": "Public facing info (this info will appear on your region page):",
+      "regionNameLabel": "Region Name",
+      "organizationNameLabel": "Organization Name",
+      "websiteLabel": "Organization URL",
+      "aboutLabel": "About Your Organization",
+      "contactNameLabel": "Contact Name",
+      "contactPhoneLabel": "Contact Phone",
+      "contactEmailLabel": "Contact Email Address",
+      "logoLabel": "Organization Logo",
+      "bannerLabel": "Page Banner",
+
+      "contactTitle": "Contact Private Information",
+      "contactInfo": "For internal purpose only",
+      "shippingAddressLabel": "Shipping Address (if different from Primary Contact Address)",
+      "sameShippingLabel": "Shipping address is the same as primary contact address"
+    },
+
+    "calendar": {
+      "mainHeading": "Calendar",
+      "heading": "Choose dates and deadlines for regional submission",
+      "seasonLaunch": "1. Season Launch",
+      "regionalEntryDeadline": "2. Regional Entry Deadline",
+      "regionalSubmissionDeadline": "3. Last Regional Deadline",
+
+      "regionalJudging": "4. Regional Judging",
+      "regionalNotification": "4. Regional Notification",
+      "regionalCeremony": "5. Regional Ceremony",
+      "regionalExhibition": "6. Regional Exhibition",
+      "seasonEnd": "7. Season End",
+      "dateInfo": "Dates set by Alliance",
+      "maxDate": "This date overlaps the next date and will push it and possibly subsequent dates forward. Are you sure you wish to proceed?'",
+      "bigDateFormat": "M.d.yyyy",
+      "deadline": "Deadline",
+      "visibleTo": "Visible To",
+      "dates": "Date(s)",
+      "setByRegionalPartner": "Dates set by Regional Partner"
+    },
+
+    "payments": {
+      "mainHeading": "Payment",
+      "heading": "Participant Payment",
+      "feesTitle": "Fees",
+      "individualFeeLabel": "Individual Fee",
+      "portfolioFeeLabel": "Portfolio Fee",
+      "feesDetail": "You are unable to change the fees. They are set by the supervisor of Scholastic.",
+      "optionsTitle": "Payment Methods Info",
+      "createStripeAccount": "Create Stripe Account",
+      "manageStripeAccount": "Manage Stripe Account",
+      "otherPaymentLabel": "I am planning on accepting other methods of entry fee payment",
+      "detailsLabel": "Additional Details",
+      "detailsNote": "Address and/or Upload Instructions etc. Note: Please limit to 3 sentences.",
+      "payoutTitle": "Your Payout Info",
+      "payoutInfo": "Your private payment information",
+      "merchantIdLabel": "Merchant Account Id",
+      "routingNumberLabel": "Routing Number"
+    },
+
+    "onboarding": {
+      "heading": "Create Your Regional Page",
+      "regionInfoTab": "Region Info",
+      "calendarTab": "Calendar",
+      "paymentTab": "Payment"
+    },
+
+    "work": {
+      "entryHeading": "Entry Info",
+      "writingUploadHeading": "Written work",
+      "artUploadHeading": "Uploads",
+      "artDescriptionHeading": "Work description",
+      "sourcesHeading": "Sources",
+      "listYourSources": "List Your Sources",
+      "schoolHeading": "School/Program information",
+      "educatorHeading": "Educator",
+      "educatorName": "Educator Name",
+      "schoolOption": "School",
+      "afterSchoolOption": "Program",
+      "homeSchoolOption": "Home School",
+      "entryInfo": "Entry Info",
+      "privacyPolicy": "Private policy",
+      "privateWork": "Private Work"
+    },
+
+    "message": {
+      "label": "Your message",
+      "sendButton": "Send message",
+      "entriesTitle": "Send a message to the {recipients} of {total, plural, one {# entry} other {# entries}}",
+      "userTitle": "Send a message to {firstName} {lastName}",
+      "schoolMessgae": "Send a message to {name}",
+      "participants": "participants",
+      "educators": "educators",
+      "parents": "parent/guardians",
+      "subjects": {
+        "unapproved": "Unapproved Entries",
+        "unsubmitted": "Unsubmitted Entries",
+        "noUploads": "Entries with no Uploads",
+        "bulk": "Bulk Paid Entries",
+        "override": "Overridden Entries",
+        "notPaid": "Unpaid Entries",
+        "noWork": "Entries with no Work",
+        "entries": "Arts and Writing Entries",
+        "judges": "Arts and Writing Judging",
+        "participants": "Arts and Writing Participation",
+        "educators": "Arts and Writing Educator"
+      }
+    },
+
+    "changePayment": {
+      "header": "Payment Status",
+      "unpaid": "Unpaid",
+      "bulk": "Bulk Payment",
+      "waiver": "Fee Waiver",
+      "other": "Other Payment",
+      "payee": "Who is Paying?",
+      "notes": "Notes",
+      "emailAddress": "Email Address",
+      "invoice": "Send Invoice Now"
+    },
+
+    "paymentStatus": {
+      "header": "Payment Status was changed.",
+      "invoice": "Invoice Sent!",
+      "headers": "Payment Status was changed!"
+    },
+
+    "judges": {
+      "mainHeading": "Judges Management",
+      "nameTableHeading": "Name",
+      "preferencesTableHeading": "Preferences",
+      "lastVisitTableHeading": "Last Visit to Panel",
+      "finishedPanelsTableHeading": "Finished Panels",
+      "panelRequestsTableHeading": "Panel Requests",
+      "messageJudgesButton": "{num, plural, =0 {Message All Judges} one {Message 1 Judge} other {Message # Judges}}",
+      "messageSingleTitle": "Send a message to {firstName} {lastName}",
+      "messageMultipleTitle": "Send a message to {total, plural, one {# judge} other {# judges}}",
+      "messageAllTitle": "Send a message to all judges",
+      "inviteJudgeButton": "Invite New Judge",
+      "modal": {
+        "title": "Invite New Judge",
+        "judgeEmail": "Judge Email",
+        "emailInfo": "Invitation will be sent to this email",
+        "sendInvitation": "Send Invitation"
+      }
+    },
+
+    "panelGeneration": {
+      "heading": "Panels Generation Settings",
+      "categoriesTableHeading": "Categories",
+      "byGradeHeading": "Generate panels by Individual Grade",
+      "bySchoolHeading": "Generate panels by High School / Middle School",
+      "generateButton": "Generate Panels",
+      "writingInfo": "Panels will be generated per Writing Category and judges will be distributed based on each Judge’s own preferences for Categories they prefer to read, the amount of hours they are willing to read, and their self-disclosed reading speed.",
+      "artInfo": "Panels will be generated per Art Category. These settings can not be changed later.",
+      "instructionLabel": "Generate Panels By:",
+      "byGradeTooltip": "Panels will be generated separately for grades from 6 to 12.",
+      "bySchoolTooltip": "Panels will be generated by merging grades <noWrap>6-8</noWrap> into Middle School Panels and grades <noWrap>9-12</noWrap> into High School Panels."
+    },
+
+    "panels": {
+      "heading": "{type, select, W {Writing} A {Art} Other{Writing}} Judging Panel Management",
+
+      "notStartedTitle": "Judging has not started yet",
+      "notStartedInfo": "Your judging panels will be shown here when it starts",
+
+      "numJudgesHeading": "Judges Number",
+      "reviewedHeading": "Works Reviewed",
+      "recuseCount": "Recuse: {recuseCount, number}",
+      "reviewCount": "Review: {reviewCount, number}",
+      "flagsHeading": "Flags",
+      "tooManyWorksPerJudgeTooltip": "Judge(s) in this panel may have too many works assigned.",
+      "tooManyForJudgeTooltip": "This judge may have too many works assigned (based on the provided judging preferences). You should replace this judge or add more judge(s) to the panel.",
+      "actualWords": "Number of words assigned: <words>{num, number}</words>",
+      "estimatedCapacity": "Estimated word count capacity: <words>{num, number}</words>",
+      "tooManyEntriesTooltip": "Judge(s) in this panel have more than <entries>{num, number}</entries> works assigned.",
+      "noLogin": "This judge has not logged in yet.",
+      "neverLogin": "Never logged in",
+
+      "judgedHeading": "Works Judged",
+      "recuseHeading": "Recuses",
+      "replaceJudgeButton": "Replace Judge",
+      "replaceMultipleButton": "Replace {total, plural, one {# judge} other {# judges}}",
+      "splitButton": "Split Panel",
+      "mergeButton": "Merge Panel",
+      "editButton": "Settings",
+      "addJudgesButton": "Add Judges",
+
+      "ratingsPerEntryLabel": "Choose the amount of times each work must be read",
+      "entriesPerJudgeThresholdLabel": "Notify me when there’s more works per judge than (optional)",
+
+      "panelInfo": {
+        "heading": "Panel Info",
+        "gradeLabel": "{count, plural, one {Grade} other {Grades}}",
+        "round": "{round, select, 1 {Elimination Round} 2 {Honorable Mention Round} 3 {Silver/Gold Key Round} other {{round}}}",
+        "nationalRound": "{round, select, 1 {Round One} 2 {Round Two} 3 {Round Three} other {{round}}}"
+      },
+
+      "replace": {
+        "header": "Replace Judge",
+        "fromHeader": "Judge(s) you are replacing:",
+        "fromInfo": "You can choose multiple judges",
+        "toHeader": "Replace with the following judge(s):",
+        "toInfo": "Amount of judges for replacement must be the same as in the first field",
+        "replaceJudgeButton": "Replace Judge",
+        "specifyReplaceError": "Please specify the judge(s) to replace",
+        "withLengthError": "You must replace with the same number of judges"
+      },
+
+      "add": {
+        "header": "Add Judges",
+        "info": "Added judges will get works to review from not reviewed works of other judges. If any judges in this panel have already reviewed some works, distribution will happen without the judged ones.",
+        "multipleInfo": "You can choose multiple judges",
+        "label": "Choose judge(s):",
+        "addJudgeButton": "Add Judge(s)"
+      },
+
+      "recuse": {
+        "header": "Re-Assign Recused Work",
+        "label": "Choose judge to re-assign this work",
+        "recuseButton": "Re-assign"
+      },
+
+      "split": {
+        "header": "Split Panel",
+        "info": "This Panel will be split up by each individual grade. Redistribution of works and judges will happen. Are you sure you want to proceed?",
+        "splitButton": "Split Panel"
+      },
+
+      "merge": {
+        "header": "Merge",
+        "label": "Merge This Panel With",
+        "info": "Merging is possible for other grades of the same category. Redistribution of works will happen.",
+        "mergeButton": "Merge Panel",
+        "selectOption": "{category}. {numGrades, plural, one {Grade} other {Grades}} {grades}",
+        "noOthers": "There are no other panels in this category to merge with"
+      },
+
+      "edit": {
+        "header": "Settings",
+        "info": "If you change this setting redistribution of works will happen."
+      },
+
+      "awardDistribution": "Award Distribution",
+
+      "worksReviewed": "Works Reviewed",
+      "awardsGiven": "Awards Given",
+      "inRound": "In Round",
+      "inPanel": "In Panel",
+      "hm": "HM",
+      "sk": "SK",
+      "gk": "GK",
+      "startJudgingButton": "Start Judging",
+      "startJudgingNowButton": "Start Judging Now",
+
+      "detailTitle": "In this panel",
+      "awardedWorksLabel": "Awarded Works",
+      "notAwardedWorksLabel": "Not Awarded Works",
+      "eliminatedWorksLabel": "Eliminated Works",
+      "ratedBarLabel": "Works rated in this round:",
+      "totalWorksLabel": "Total Works in Panel",
+      "mentionsLabel": "Honorable Mentions",
+      "silverKeyLabel": "Silver key",
+      "goldKeyLabel": "Gold key",
+      "notStarted": "Not started",
+
+      "progressTitle": "Rounds Progress",
+      "summaryTitle": "Voting Summary",
+      "judgedTitle": "{a, number}/{b, number} Works Judged:",
+      "advancedLabel": "Advanced works:",
+      "notAdvancedLabel": "Not advanced works:",
+      "nextRoundButton": "Next Round",
+      "nextPanelButton": "Finish"
+    },
+    "panel": {
+      "heading": "{category}, {numGrades, plural, one {Grade:} other {Grades:}} {grades}",
+      "roundsProgress": "Rounds Progress"
+    },
+
+    "panelEntries": {
+      "roundHeading": "Works in this Round",
+      "panelHeading": "All Works in this Panel",
+      "preview": "Preview",
+      "title": "Title",
+      "status": "Status",
+      "statusEnum": "{status, select, NotJudged {Not Judged} NotJudgedInRound {In Progress} NotAdvanced {Not Advanced} Advanced {Advanced} HonorableMention {Honorable Mention} SilverKey {Silver Key} GoldKey {Gold Key} other {{status}}}"
+    },
+
+    "panelEntry": {
+      "heading": "Rate Work | {category}. {numGrades, plural, one {Grade:} other {Grades:}} {grades}",
+      "return": "Return to Panel",
+      "entryInfo": "Work Info",
+      "generalInfo": "General Info",
+      "dimensions": "Dimensions",
+      "materials": "Materials",
+      "sources": "Sources",
+      "otherEntries": "Other entries in this round",
+      "judging": "Judging",
+      "isAdvanced": "You advanced this work",
+      "isNotAdvanced": "You did not advance this work",
+      "advanceButton": "Advance this Work",
+      "noAdvanceButton": "Don't advance this Work",
+      "reEvaluateButton": "Re-evaluate",
+      "nominateButton": "Nominate for American Visions",
+      "review": "Review for Plagiarism",
+      "skipButton": "Skip this work",
+      "panelInfo": "Panel Info",
+      "total": "Panel Total",
+      "advanced": "Advanced Works",
+      "notAdvanced": "Not Advanced Works",
+      "criteria": "Criteria",
+      "originality": "Originality",
+      "originalityTooltip": "An innovative approach to process, concept and subject matter. Originality often manifests itself in works that go beyond the classroom assignment",
+      "skill": "Technical Skill",
+      "skillTooltip": "Ability to work fluently in a particular genre. Technical skill is utilized to advance an original idea or perspective. Do not penalize for minor typos.",
+      "vision": "Personal Vision",
+      "visionTooltip": "Evidence of the writer’s unique style, sensibility and perspective."
+    },
+
+    "awards": {
+      "heading": "Awards Management",
+      "totalWorks": "Total Works",
+      "voices": "American Voices Nominations",
+      "visions": "American Visions Nominations",
+      "preview": "Preview",
+      "meanScore": "Mean Score",
+      "nominations": "Nominations",
+      "national": "National Nominate"
+    }
+  },
+
+  "form": {
+    "saved": "Changes saved!",
+    "updated": "Changes updated!",
+    "unsavedTitle": "You have unsaved changes",
+    "unsavedDescription": "If you leave this page then your changes will be discarded.",
+    "unsavedConfirm": "Discard Changes",
+    "name": "Name",
+    "firstNameLabel": "First Name",
+    "lastNameLabel": "Last Name",
+    "phoneLabel": "Phone",
+    "phoneNumberLabel": "Phone Number",
+    "faxLabel": "Fax (optional)",
+    "emailLabel": "Email",
+    "judgeHoursAvailable": "Amount of hours to read",
+    "previousAdjudication": "Previous adjudication",
+    "judgeReadingSpeed": "Reading Speed",
+    "emailPlaceholder": "Your email address",
+    "mailPalceholder": "mail@example.com",
+    "emailnewlabel": "Your email address",
+    "emailConfirmationLabel": "Email Confirmation",
+    "alternativeEmailLabel": "Alternative Email",
+    "alternativeEmailInfo": "This email will be used for sending you all the info about judging",
+    "address1Label": "Address (line 1)",
+    "address2Label": "Address (line 2)",
+    "cityLabel": "City",
+    "stateLabel": "State",
+    "zipLabel": "Zip Code",
+    "passwordLabel": "Password",
+    "countryLabel": "Country",
+    "userTypeLabel": "Select User Type",
+    "userType": "Type of User to Invite",
+    "countryPlaceholder": "Select country",
+    "statePlaceholder": "Select state",
+    "createPassword": "Create a Password",
+    "verifyPassword": "Verify Password",
+    "passwordPlaceholder": "Password",
+    "categoryTypePlaceholder": "Select type",
+    "categoryPlaceholder": "Select category",
+    "ethnicityLabel": "Ethnicity",
+    "ethnicityPlaceholder": "Select or type to self-describe",
+    "pronounLabel": "Pronoun",
+    "pronounPlaceholder": "Select or type to self-describe",
+    "wordsLeft": "words left",
+    "code": "Code",
+    "regionCode": "Region Code",
+    "afterSchoolOption": "After school program",
+    "preferredemail": "Preferred Email"
+  },
+
+  "formValidation": {
+    "required": "Required",
+    "name": "Please enter valid name",
+    "email": "Please supply a valid email address",
+    "emailMatch": "Email must match",
+    "emailValid": "Please enter valid Email",
+    "phoneMatch": "Phone number is not valid",
+    "min": "Value must be at least {min}",
+    "max": "Value must be at least {max}",
+    "number": "Must be a number",
+    "passwordLength": "Password must contain at least 8 characters",
+    "passwordReq": "Password must contain at least one uppercase letter and one lowercase letter",
+    "passwordMatch": "Passwords must match",
+    "tooManyWords": "Too many words",
+    "invalidZip": "Zip is not valid",
+    "grade": "Please select grade",
+    "sourcesNeeded": "Please specify the source"
+  },
+
+  "components": {
+    "datePicker": {
+      "to": "to",
+      "rangeError": "This date is outside of the suggested range. Are you sure you want to proceed?"
+    },
+
+    "imageUploader": {
+      "instructions": "Drag and drop or <link>browse files</link>",
+      "validFileFormats": "You may upload .jpg, .jpeg, .image",
+      "validFileFormatsUpdated": "You may upload .jpg, .png, .pdf, .gif, .mov, .mp4",
+      "acceptableFileFormats": "You may upload {formats}",
+      "removeImageTitle": "Remove Image",
+      "removeImageInfo": "Are you sure you want to remove this image?",
+      "maximumFileSize": "Maximum allowed file size is {max}MB",
+      "validFileTypes": "The only valid file formats are {fileTypes}",
+      "maximumFileQuantity": "You can only upload {max} {max, plural, one {file} other {files}}"
+    },
+
+    "panelCounts": {
+      "totalCountDesktopLabel": "Total panels:",
+      "totalCountMobileLabel": "Total panels",
+      "judgingCountLabel": "Needs Judging",
+      "progressCountLabel": "In Progress",
+      "closedCountLabel": "Closed",
+      "judgingStartsLabel": "Judging starts in:",
+      "judgingDeadlineLabel": "Judging starts in:",
+      "judgingDays": "{days} <label>{days, plural, one {day} other {days left}}</label>"
+    }
+  }
+}
